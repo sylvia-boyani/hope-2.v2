@@ -12,7 +12,7 @@ import Contact from '../routes/Contact';
 import Events from '../routes/Events';
 import Ministries from '../routes/Ministries';
 import Tumati from '../routes/Tumati';
-import Raila from '../routes/churches/Nairobi/Raila';
+import Raila from '../routes/churches/Nairobi/Raila/Raila';
 
 const App = () => {
   return (

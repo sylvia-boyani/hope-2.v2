@@ -1,8 +1,12 @@
 import React from 'react'
+import Nav from './nav';
+import './nav.css'
 
 function Raila() {
   return (
-    <div>Raila</div>
+    <div>
+      <Nav />
+    </div>
   )
 }
 
