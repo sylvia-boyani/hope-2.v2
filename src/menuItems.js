@@ -70,7 +70,7 @@ export const menuItems = [
           },
           {
             title: 'Raila',
-            url: '*',
+            url: 'raila',
           },
           {
             title: 'Kibera',

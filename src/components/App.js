@@ -12,6 +12,7 @@ import Contact from '../routes/Contact';
 import Events from '../routes/Events';
 import Ministries from '../routes/Ministries';
 import Tumati from '../routes/Tumati';
+import Raila from '../routes/churches/Nairobi/Raila';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
           <Route path='ministries' element={<Ministries />}/>
           <Route path='contact' element={<Contact />}/>
           <Route path='events' element={<Events />}/>
+          <Route path='raila' element={<Raila />}/>
         </Route>
       </Routes>
     </>
