@@ -1,0 +1,26 @@
+.counter {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0a2b1e;
+  }
+  
+  .counter__title {
+    font-size: 1rem;
+    color: #0a2b1e;
+    font-weight: 500;
+  }
+  
+  .about__content {
+    padding-left: 50px;
+    margin-top: 70px;
+  }
+  
+  .about__img img {
+    border-radius: 15px;
+    max-height: fit-content;
+    margin-top: 70px;
+  }
+  
+  .about__content h2 {
+    font-weight: 600;
+  }

@@ -1,0 +1,84 @@
+.Gallery {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #myImg:hover {
+    opacity: 0.7;
+  }
+  .container1 {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .image-card {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+  }
+  .img {
+    width: 100%;
+  }
+  
+
+  @media all and (max-width: 480px){
+    .Gallery h2{
+     font-size: 20px;
+    }
+ 
+    .container1 {
+     width: 100%;
+     grid-template-columns: repeat(10, 1fr);
+    
+   }
+  }
+
+  @media all and (max-width: 600px){
+   .Gallery h2{
+    font-size: 20px;
+   }
+
+   .container1 {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+   
+  }
+
+  @media all and (max-width: 320px){
+    .container1 {
+      /* width: 100%; */
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+  }
+
+
+  @media all and (max-width: 1024px){
+    .container1 {
+      width: 100%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+  }
+
+
+  @media all and (max-width: 1280px){
+    .container1 {
+      width: 100%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+  }
+
+}

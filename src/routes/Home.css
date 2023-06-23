@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header_container {
+    justify-content: center;
+    text-align: center;
+    height: 200%;
+    background: transparent;
+    color: #031703;
+    line-height: 30px;
+}
+
+.header_container h2{
+    line-height: 15px;
+    margin-top: 20px;
+}
+
+.header_container h5 {
+    justify-content: center;
+    text-align:center;
+    height: 20px;
+    margin: auto;
+    margin-top: .2rem;
+    margin-bottom: 20px;
+}
+
+.header_container h1 {
+    margin-top: 30px;
+    margin: auto;
+    /* border: 1px solid green; */
+}
+
+.header_container h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    line-height: 10px;
+}
+
+#vida {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    margin: auto;
+    max-width: 1200px;
+    object-fit: cover;
+    width: 100vw;
+    height: 120vh;
+    background-color: #093a08;
+    top: 0;
+    left: 0;
+}
+
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.9rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    font-size: 1.2rem;
+    color: green;
+}
+
+.header_socials a{
+    color: green
+}
+
+.content a:hover{
+    color: green;
+    transform: translateX(1rem);
+    border-radius: 20%;
+    background: transparent;
+    border-color: green;
+}
+
+.header_socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: green;
+}
+
+
+
+.scroll_down {
+    position: absolute;
+    right: 0;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+/* Media Queries Tablets and Phones */
+@media all and (max-width: 1440px){
+    .header_container {
+        line-height: 20px;
+    }
+    .header_container h1{
+        line-height: 20px;
+    }
+
+    .header_container h2{
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+        line-height: 70px;
+    }
+
+    #vida{
+        object-fit: cover; 
+
+    }
+
+
+}
+
+
+
+@media all and (max-width: 600px){
+    .header_container {
+        line-height: 10px;
+        margin-top: 3rem;
+    }
+
+    .header_container h1{
+        line-height: 30px;
+    }
+
+    .header_container h2{
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    #vida{
+        object-fit: cover; 
+        height: 100vh;
+
+    }
+
+}

@@ -1,0 +1,12 @@
+.testimonial__content h2 {
+    font-weight: 600;
+  }
+
+  .testimonial__wrapper{
+     margin-top: 70px;
+     margin-bottom: 50px;
+  }
+
+  .testimonial__img img{
+    max-height: fit-content;
+  }
