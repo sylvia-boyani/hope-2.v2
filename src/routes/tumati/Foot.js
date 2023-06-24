@@ -6,7 +6,7 @@ import "./foot.css";
 const footerQuickLinks = [
   {
     display: "Home",
-    url: "#",
+    url: "homeT",
   },
   {
     display: "About US",
@@ -47,7 +47,7 @@ const footerInfoLinks = [
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id="contactT">
       <Container>
         <Row>
           <Col lg="3" md="6" className="mb-4">

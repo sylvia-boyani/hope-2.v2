@@ -36,19 +36,19 @@ export default function Nav() {
             isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
           <ul>
             <li>
-              <a href="/homeT">Home</a>
+              <a href="/homeR">Home</a>
             </li>
             <li>
-              <a href="/aboutT">About</a>
+              <a href="/aboutR">About</a>
             </li>
             <li>
-              <a href="/programs">Our Programs</a>
+              <a href="/programsR">Our Programs</a>
             </li>
             <li>
-              <a href="/team">Team</a> 
+              <a href="/teamR">Team</a> 
             </li>
             <li>
-              <a href="/blog">Blog</a>
+              <a href="/services">Services</a>
             </li>
             <li>
               <a href="/contactT">Contact</a>

@@ -191,6 +191,10 @@ export const menuItems = [
       title: 'LAMU HOUSE',
       url: 'lamu',
      },
+     {
+      title: 'MABADILIKO YA WANADADA',
+      url: 'mabadiliko',
+     },
     ]
   },
   {

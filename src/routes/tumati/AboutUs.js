@@ -6,7 +6,7 @@ import "./abou.css";
 
 const AboutUs = () => {
   return (
-    <section>
+    <section id="abouT">
       <Container>
         <Row>
           <Col lg="6" md="6">

@@ -20,8 +20,8 @@ function Home() {
         <div classname ="header_content">
         <h5>Hello, Welcome to</h5>
         <h1>Tumaini Ministries Centre</h1>
-        <h2><i>You have been made clean already by the teaching I have given you.</i></h2>
-        <h2><i>JOHN 15:3</i></h2>
+        <h2><i>He gives hope to the poor and silences the wicked.</i></h2>
+        <h2><i>JOB 5:16</i></h2>
         </div>
         <h3 className= "text-light">Needing Jesus Christ Together</h3>
         <HeaderSocials />

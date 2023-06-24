@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import '../../routes/tumati/nav.css'
 import logo from '../../assets/tumati-logo.jpeg'
+import { HashLink as Link} from 'react-router-hash-link'
 
-export default function Nav() {
+function Nav() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
 
     return (
@@ -36,25 +37,27 @@ export default function Nav() {
             isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
           <ul>
             <li>
-              <a href="/homeT">Home</a>
+              <Link to="#homeT">Home</Link>
             </li>
             <li>
-              <a href="/aboutT">About</a>
+              <Link to="#aboutT">About</Link>
             </li>
             <li>
-              <a href="/programs">Our Programs</a>
+              <Link to="#programsT">Our Programs</Link>
             </li>
             <li>
-              <a href="/team">Team</a> 
+              <Link to="#teamT">Team</Link> 
             </li>
             <li>
-              <a href="/blog">Blog</a>
+              <Link to="#blog">Blog</Link>
             </li>
             <li>
-              <a href="/contactT">Contact</a>
+              <Link to="#contactT">Contact</Link>
             </li>
           </ul>
         </div>
       </nav>
     );
   }
+
+export default Nav;
