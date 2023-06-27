@@ -11,6 +11,7 @@
     background: transparent;
     color: #031703;
     line-height: 30px;
+    max-width: 100%;
 }
 
 .header_container h2{
@@ -46,7 +47,7 @@
     z-index: -1;
     opacity: 0.4;
     margin: auto;
-    max-width: 1200px;
+    max-width: 100%;
     object-fit: cover;
     width: 100vw;
     height: 120vh;
