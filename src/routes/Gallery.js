@@ -1,5 +1,6 @@
 import "./Gallery.css";
 // import { SRLWrapper } from "simple-react-lightbox";
+
 const videoPlayer2 =
   "https://res.cloudinary.com/defml0xz0/video/upload/v1682164988/video1_msp4xo.mp4";
 const videoPlayer4 =

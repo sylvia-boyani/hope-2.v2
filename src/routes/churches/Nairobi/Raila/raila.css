@@ -39,11 +39,35 @@
 }
 
 .transparent-background{
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     position: absolute;
     z-index: 998;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(166, 255, 0));
+    /* background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(166, 255, 0)); */
+}
+
+@media all and (max-width: 1440px){
+    
+}
+
+@media all and (max-width: 600px){
+    .hero{
+        height: 50vh;
+    }
+    .description{
+        width: fit-content;
+    }
+    
+    .description h1{
+        font-size: 22px;
+    }
+    
+    .description p{
+        font-size: 11px;
+    }
+    .carousel-boult span{
+        display: none;
+    }
 }

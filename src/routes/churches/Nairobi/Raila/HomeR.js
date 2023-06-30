@@ -2,8 +2,6 @@ import React, { useEffect } from 'react'
 import './raila.css'
 import ImageSlider from './dataR'
 import { useState } from 'react'
-//import hey from "../../../../assets/first.jpeg"
-//import { HashLink as Link } from 'react-router-hash-link'
 
 const HomeR = () => {
   const [currentState,setCurrentState] = useState(0)
@@ -20,7 +18,8 @@ const HomeR = () => {
   const bgImageStyle = {
     backgroundImage: `url(${ImageSlider[currentState].url})`,
     backgroundPosition: 'center',
-    backgroundSize: 'contain',
+    backgroundSize: 'cover',
+    BackgroundRepeat: 'none',
     height: '100%'
   }
   const goToNext = (currentState)=>{
