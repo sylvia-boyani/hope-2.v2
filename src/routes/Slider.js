@@ -1,107 +1,49 @@
-import React from 'react'
-import './Slider.css'
-import Tumahouse from '../assets/tuma-house.jpeg';
-import board from '../assets/board.jpeg'
-import men from '../assets/mens.jpeg'
-import women from '../assets/women.jpeg'
-import agm from '../assets/agm.jpeg'
-import youth from '../assets/youth.jpeg'
-
-// import Swiper core and required modules
-import { Autoplay } from 'swiper';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css/autoplay';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-
+import React, { useEffect } from 'react'
+import './Slider-data'
+import ImageSlider from './Slider-data'
+import { useState } from 'react'
 
 const Slider = () => {
+  const [currentState,setCurrentState] = useState(0)
+  useEffect(() =>{
+    const timer = setTimeout(()=>{
+      if(currentState===3){
+        setCurrentState(0)
+      }else{
+        setCurrentState(currentState+1)
+      }
+    }, 5000)
+    return ()=> clearTimeout(timer)
+  },[currentState])
+  const bgImageStyle = {
+    backgroundImage: `url(${ImageSlider[currentState].url})`,
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    BackgroundRepeat: 'none',
+    height: '100%'
+  }
+  const goToNext = (currentState)=>{
+    setCurrentState(currentState)
+  }
   return (
-    <section id='testimonials'>
-      <Swiper className='container_testimonials-container'
-            
-       modules={[ Autoplay]} 
-       spaceBetween={40} 
-       slidesPerView={1} 
-       autoplay={true}
-      
-      >     
-
-        <SwiperSlide className="testimonial">
-          <div className='client_avatar'>
-            <img src={Tumahouse} alt="" />
-          </div>
-            <h5 className='client_name'>Tumaini House</h5>
-            <small className='client_review'>
-            
-            </small>
-          
-        </SwiperSlide>
-
-        <SwiperSlide className="testimonial">
-          <div className='client_avatar'>
-            <img src={board} alt="" />
-          </div>
-            <h5 className='client_name'>Executive Board Members</h5>
-            <small className='client_review'>
-            
-            </small>
-          
-        </SwiperSlide>
-
-        <SwiperSlide className="testimonial">
-          <div className='client_avatar'>
-            <img src={men} alt="" />
-          </div>
-            <h5 className='client_name'>Bishop with Coastal region Pastors</h5>
-            <small className='client_review'>
-            
-            </small>
-          
-        </SwiperSlide>
-
-        <SwiperSlide className="testimonial">
-          <div className='client_avatar'>
-            <img src={women} alt="" />
-          </div>
-            <h5 className='client_name'>Women in Ministry</h5>
-            <small className='client_review'>
-            
-            </small>
-          
-        </SwiperSlide>
-
-        <SwiperSlide className="testimonial">
-          <div className='client_avatar'>
-            <img src={agm} alt="" />
-          </div>
-            <h5 className='client_name'>Annual General Meeting</h5>
-            <small className='client_review'>
-            
-            </small>
-          
-        </SwiperSlide>
-
-        <SwiperSlide className="testimonial">
-
-      
-
-          <div className='client_avatar'>
-            <img src={youth} alt="" />
-          </div>
-            <h5 className='client_name'>Our Youth</h5>
-            <small className='client_review'>
-            
-            </small>
-          
-        </SwiperSlide>
-        
-      </Swiper>
-    </section>
+      <div className='hero'>
+       <div style={bgImageStyle} ></div>
+       <div className='transparent-background'></div>
+       <div className='description'>
+         <div>
+          <h1>{ImageSlider[currentState].title}</h1>
+          <p>{ImageSlider[currentState].body}</p>
+         </div>
+         <div className='carousel-boult'>
+          {
+            ImageSlider.map((ImageSlider,currentState)=>(
+              <span key={currentState} onClick={()=> goToNext(currentState) }></span>
+            ))
+          }
+         </div>
+       </div>
+    </div>
   )
 }
 
-export default Slider;
+export default Slider
