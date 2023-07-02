@@ -26,6 +26,7 @@ const Slider = () => {
     setCurrentState(currentState)
   }
   return (
+
       <div className='hero'>
        <div style={bgImageStyle} ></div>
        <div className='transparent-background'></div>

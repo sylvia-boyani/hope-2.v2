@@ -7,6 +7,9 @@ import im5 from '../assets/pronk.jpeg'
 import im6 from '../assets/maggy.jpeg'
 import im7 from '../assets/peter.jpeg'
 import im8 from '../assets/kelvin.jpeg'
+import im9 from '../assets/Nion.jpeg'
+import im10 from '../assets/Renson.jpeg'
+import im11 from '../assets/Eunice.jpeg'
 
 
 
@@ -22,7 +25,7 @@ function Leaders() {
          <div data-aos="fade-left" className="lead-column">
             <div className='lead-content'>
                <h3>Bishop Fred Ogutu Faradays</h3>
-               <h4>Ministry Leader and Chairman of the Executive Baord</h4>
+               <h4>Ministry Leader and Chairman of the Executive Board</h4>
                <p>We all have our strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.
@@ -150,7 +153,7 @@ function Leaders() {
          <div data-aos="fade-left" className="lead-column">
             <div className='lead-content'>
                <p>
-                  <h3>Peter Njau</h3>
+                  <h3>Peter Njasi</h3>
                   <h4>Ministry Accountant</h4>
                   Because I'm experienced, reliable,
                   and focused on results, I've had the
@@ -199,6 +202,87 @@ function Leaders() {
                   privilege of working with a host of fantastic clients.
 
                </p>
+            </div>
+         </div>
+
+         <div data-aos="fade-left" className="lead-column">
+            <div className='lead-content'>
+               <p>
+                  <h3>Nixon Mambo</h3>
+                  <h4>Men's Ministry Lead</h4>
+                  Because I'm experienced, reliable,
+                  and focused on results, I've had the
+                  privilege of working with a host of fantastic clients.
+                  Because I'm experienced, reliable,
+                  and focused on results, I've had the Because I'm experienced, reliable,
+                  and focused on results, I've had the Because I'm experienced, reliable,
+                  and focused on results, I've had the
+                  privilege of working with a host of fantastic clients.
+                  privilege of working with a host of fantastic clients.
+                  privilege of working with a host of fantastic clients.
+
+               </p>
+            </div>
+         </div>
+
+         <div data-aos="fade-right" className="lead-column">
+            <div className='lead-img'>
+               <img src={im9} alt="about us" />
+            </div>
+         </div>
+
+         <div data-aos="fade-right" className="lead-column">
+            <div className='lead-img'>
+               <img src={im11} alt="about us" />
+            </div>
+         </div>
+         <div data-aos="fade-left" className="lead-column">
+            <div className='lead-content'>
+               <p>
+                  <h3>Eunice </h3>
+                  <h4>Women's Ministry Lead</h4>
+                  Because I'm experienced, reliable,
+                  and focused on results, I've had the
+                  privilege of working with a host of fantastic clients.
+                  Because I'm experienced, reliable,
+                  and focused on results, I've had the Because I'm experienced, reliable,
+                  and focused on results, I've had the Because I'm experienced, reliable,
+                  and focused on results, I've had the
+                  privilege of working with a host of fantastic clients.
+                  privilege of working with a host of fantastic clients.
+                  privilege of working with a host of fantastic clients.
+                  privilege of working with a host of fantastic clients.
+                  privilege of working with a host of fantastic clients.
+                  privilege of working with a host of fantastic clients.
+
+               </p>
+            </div>
+         </div>
+
+
+         <div data-aos="fade-left" className="lead-column">
+            <div className='lead-content'>
+               <p>
+                  <h3> Pst Renson</h3>
+                  <h4>Pastors Representative</h4>
+                  Because I'm experienced, reliable,
+                  and focused on results, I've had the
+                  privilege of working with a host of fantastic clients.
+                  Because I'm experienced, reliable,
+                  and focused on results, I've had the Because I'm experienced, reliable,
+                  and focused on results, I've had the Because I'm experienced, reliable,
+                  and focused on results, I've had the
+                  privilege of working with a host of fantastic clients.
+                  privilege of working with a host of fantastic clients.
+                  privilege of working with a host of fantastic clients.
+
+               </p>
+            </div>
+         </div>
+
+         <div data-aos="fade-right" className="lead-column">
+            <div className='lead-img'>
+               <img src={im10} alt="about us" />
             </div>
          </div>
       </div>
