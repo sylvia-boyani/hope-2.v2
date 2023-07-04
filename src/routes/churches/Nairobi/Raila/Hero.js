@@ -9,7 +9,7 @@ function Hero() {
   return (
     <div><h3>HAPPENING WEEKLY</h3>
     <div className='Hero'>
-    <div className='pic2'>
+    <div className='pic'>
        <img className= "hero-img" src={hero2} alt='hero'/>
        <p>SUNDAY SERVICES <br/>
            10:00 AM <br />
@@ -25,7 +25,7 @@ function Hero() {
            
        </p>
      </div>
-     <div className='pic1'>
+     <div className='pic'>
        <img className='hero-img' src={hero3} alt='hero'/>
        <p>OUR PROGRAMS <br />
          Time: 10:00 AM. <br />
@@ -40,7 +40,7 @@ function Hero() {
          Special Services.</p>
      </div>
 
-     <div className='pic1'>
+     <div className='pic'>
        <img className='hero-img' src={hero1} alt='hero'/>
        <p>COMMUNITY OUTREACH <br />
          Time: All Day<br />
@@ -52,7 +52,7 @@ function Hero() {
          We also take this opportunity to evangelize.</p>
      </div>
      
-     <div className='pic2'>
+     <div className='pic'>
        <img className= "hero-img" src={hero4} alt='hero'/>
        <p>NIGHT KESHA'S <br />
          Time: All Night. 9:00 PM - 5:00 AM <br />

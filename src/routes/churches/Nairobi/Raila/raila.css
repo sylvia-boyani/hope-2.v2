@@ -91,4 +91,7 @@
     .carousel-boult span{
         display: none;
     }
+    .Hero{
+        grid-template-columns: 1fr;
+    }
 }
