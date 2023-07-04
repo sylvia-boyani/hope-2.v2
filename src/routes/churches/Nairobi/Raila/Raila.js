@@ -4,6 +4,7 @@ import HomeR from './HomeR';
 import './nav.css'
 import Hero from './Hero'
 import AboutR from './AboutR'
+import Footer from './footer'
 
 
 function Raila() {
@@ -13,7 +14,7 @@ function Raila() {
       <HomeR />
       <Hero />
       <AboutR />
-      
+      <Footer />
     </div>
   )
 }
