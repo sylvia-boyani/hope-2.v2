@@ -30,7 +30,13 @@ function AboutR() {
      </div>
      <div>
         <h4>Our Church</h4>
-        <p>Our church has a few programs that it runs.</p>
+        <p>Our church has a few programs that it runs.
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+           in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
         <div><ProgramsR /></div>
      </div>
         <h2>Meet Our Church Leaders</h2>
