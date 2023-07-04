@@ -3,6 +3,7 @@ import './raila.css'
 import img77 from "../../../../assets/city.jpg"
 import img777 from "../../../../assets/ubc.jpg"
 import img7777 from "../../../../assets/pst.James.jpg"
+import ProgramsR from './ProgramsR'
 
 function AboutR() {
   return (
@@ -30,8 +31,9 @@ function AboutR() {
      <div>
         <h4>Our Church</h4>
         <p>Our church has a few programs that it runs.</p>
+        <div><ProgramsR /></div>
      </div>
-        <h3>Meet the Church Leaders</h3>
+        <h2>Meet Our Church Leaders</h2>
         <div className='team' id="teamR">
         <div className='me'>
          <div data-aos="fade-right" className="about-column">

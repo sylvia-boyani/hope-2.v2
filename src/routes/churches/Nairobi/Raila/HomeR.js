@@ -3,6 +3,7 @@ import './raila.css'
 import ImageSlider from './dataR'
 import { useState } from 'react'
 
+
 const HomeR = () => {
   const [currentState,setCurrentState] = useState(0)
   useEffect(() =>{

@@ -80,9 +80,6 @@ h3{
     gap: 5%;
 }
 
-.about-content{
-    /* border: solid red; */
-}
 .about-content h1{
     margin-bottom: 0;
     color: green;
@@ -97,6 +94,54 @@ h3{
     color: green;
 }
 
+.program_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+h2{
+    text-align: center;
+}
+
+.program_container > div {
+    background: #0d7a0b;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.program_container > div:hover{
+    background: transparent;
+    border-color: #093a08;
+    cursor: default;
+}
+
+.program_container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.program_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* row-gap: 2rem; */
+}
+
+.program_details{
+    display: flex;
+    gap: 1rem;
+}
+
+.program_details-icon{
+    margin-top: 6px;
+    color: yellowgreen;
+}
+
+
+
 
 @media all and (max-width: 1440px){
     .about-content h1{
@@ -104,15 +149,28 @@ h3{
         
     }
     
-    .about-img{
-    
-    }
     .about-content h3{
         margin-bottom: 0.5rem;
         color: green;
     }
     
-}  
+} 
+
+@media screen and (max-width: 1024px){
+    .program_container{
+        grid-template-columns: 1fr;
+    }
+
+    .program_container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .program_container{
+     padding: 1rem;
+    }
+}
 
 
 @media all and (max-width: 600px){
@@ -164,5 +222,15 @@ h3{
       
         .abt{
             margin-top: 13rem;
+        }
+
+        .about_container{
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+    
+        .program_container > div{
+            width: 100%;
+            padding: 2rem 1rem;
         }
 }
