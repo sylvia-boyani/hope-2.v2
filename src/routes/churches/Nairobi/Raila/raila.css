@@ -60,6 +60,9 @@
     margin-top: 100px;
 }
 
+.Hero p{
+    text-align: center;
+}
 .hero-img{
     width: 90%;
     max-height: 1200px;
