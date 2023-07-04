@@ -48,7 +48,7 @@ export default function Nav() {
               <a href="/teamR">Team</a> 
             </li>
             <li>
-              <a href="/services">Services</a>
+              <a href="/services">Give</a>
             </li>
             <li>
               <a href="/contactT">Contact</a>
