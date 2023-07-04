@@ -7,7 +7,8 @@ import img7777 from "../../../../assets/pst.James.jpg"
 function AboutR() {
   return (
     <div>
-      <h3>About Us</h3>
+     <div className='abt'>
+     <h3>About Us</h3>
       <p>Tumaini Langata was founded by Pst Jackton
         and Bishop Fred Ogutu. The church originated from 
         Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
@@ -25,6 +26,7 @@ function AboutR() {
         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
         deserunt mollit anim id est laborum."</p>
+     </div>
         <h3>Meet the Church Leaders</h3>
         <div className='team'>
         <div className='me'>
