@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './nav.css'
-//import logo from '../../../../assets/tuma.png'
+import {HashLink as Link} from 'react-router-hash-link'
 
 export default function Nav() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -36,22 +36,22 @@ export default function Nav() {
             isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
           <ul>
             <li>
-              <a href="/homeR">Home</a>
+            <Link to="#homeR">Home</Link>
             </li>
             <li>
-              <a href="/aboutR">About</a>
+              <Link to="#aboutR">About</Link>
             </li>
             <li>
-              <a href="/programsR">Our Programs</a>
+              <Link to="#ProgramsR">Our Programs</Link>
             </li>
             <li>
-              <a href="/teamR">Team</a> 
+              <Link to="#teamR">Team</Link> 
             </li>
             <li>
-              <a href="/services">Give</a>
+              <Link to="#giveR">Give</Link>
             </li>
             <li>
-              <a href="/contactT">Contact</a>
+              <Link to="#contactR">Contact</Link>
             </li>
           </ul>
         </div>

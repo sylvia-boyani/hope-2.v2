@@ -7,7 +7,7 @@ import img7777 from "../../../../assets/pst.James.jpg"
 function AboutR() {
   return (
     <div>
-     <div className='abt'>
+     <div className='abt' id='aboutR'>
      <h3>About Us</h3>
       <p>Tumaini Langata was founded by Pst Jackton
         and Bishop Fred Ogutu. The church originated from 
@@ -27,8 +27,12 @@ function AboutR() {
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
         deserunt mollit anim id est laborum."</p>
      </div>
+     <div>
+        <h4>Our Church</h4>
+        <p>Our church has a few programs that it runs.</p>
+     </div>
         <h3>Meet the Church Leaders</h3>
-        <div className='team'>
+        <div className='team' id="teamR">
         <div className='me'>
          <div data-aos="fade-right" className="about-column">
             <div className='about-img'>

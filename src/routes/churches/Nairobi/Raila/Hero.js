@@ -7,7 +7,7 @@ import hero4 from '../../../../assets/pst.James.jpg'
 
 function Hero() {
   return (
-    <div><h3>HAPPENING WEEKLY</h3>
+    <div id="ProgramsR"><h3>HAPPENING WEEKLY</h3>
     <div className='Hero'>
     <div className='pic'>
        <img className= "hero-img" src={hero2} alt='hero'/>
@@ -20,14 +20,13 @@ function Hero() {
            Giving. Offerings & Tithes<br />
            Praise & Worship <br />
            Sermon<br />
-           After Service Meetings <br />
            End of Service
            
        </p>
      </div>
      <div className='pic'>
        <img className='hero-img' src={hero3} alt='hero'/>
-       <p>OUR PROGRAMS <br />
+       <p>OTHER SERVICES <br />
          Time: 10:00 AM. <br />
          Main Sunday Services.  <br />
          Children Service/Sunday School.  <br />
@@ -35,8 +34,7 @@ function Hero() {
          Women Services Every third Sunday.  <br />
          Men Church Services. <br /> 
          Men Partner Programs (DADS) <br />
-         School Program. Pre-School & Primary. <br />
-         Mabadiliko Ya Wanadada. <br/>
+         Home services(Teusdays). <br/>
          Special Services.</p>
      </div>
 
