@@ -5,6 +5,7 @@ import './nav.css'
 import Hero from './Hero'
 import AboutR from './AboutR'
 import Footer from './footer'
+import ContactR from './ContactR'
 
 
 function Raila() {
@@ -14,6 +15,7 @@ function Raila() {
       <HomeR />
       <Hero />
       <AboutR />
+      <ContactR />
       <Footer />
     </div>
   )

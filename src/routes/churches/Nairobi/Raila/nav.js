@@ -51,7 +51,7 @@ export default function Nav() {
               <Link to="#giveR">Give</Link>
             </li>
             <li>
-              <Link to="#contactR">Contact</Link>
+              <Link to="#ContactR">Contact</Link>
             </li>
           </ul>
         </div>

@@ -140,6 +140,26 @@ h2{
     color: yellowgreen;
 }
 
+.contact-form{
+    margin-top: 100px;
+    width: 50%;
+    color: black
+}
+input {
+    background-color: #093a08
+}
+input, textarea{
+    color: black;
+}
+
+input, placeholder{
+    color: #fff;
+}
+.contact-btn{
+    width: 20%;
+    border-radius: 5px;
+    padding: 2px;
+}
 
 
 
