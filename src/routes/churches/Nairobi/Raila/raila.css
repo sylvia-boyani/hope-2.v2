@@ -253,4 +253,11 @@ input, placeholder{
             width: 100%;
             padding: 2rem 1rem;
         }
+        .contact-btn{
+            width: 50%;
+        }
+        .contact-form{
+            margin-top: 100px;
+            width: 100%;
+        }
 }
