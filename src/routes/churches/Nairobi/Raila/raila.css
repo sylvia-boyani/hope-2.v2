@@ -173,6 +173,10 @@ input, placeholder{
     justify-content: center;
 }
 
+.choir{
+    margin-top: 100px;
+}
+
 
 @media all and (max-width: 1440px){
     .about-content h1{

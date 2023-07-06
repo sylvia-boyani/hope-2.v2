@@ -4,6 +4,7 @@ import img77 from "../../../../assets/Pst shadrack.jpg"
 import img777 from "../../../../assets/ubc.jpg"
 //import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'
+import ReactPlayer from 'react-player'
 
 function AboutR() {
   return (
@@ -103,6 +104,12 @@ function AboutR() {
             </div>
          </div>
       </div>
+        <div className='choir'>
+         <h5>See some of our Choirs Songs</h5>
+         <ReactPlayer url='https://youtu.be/u9Qxd8xLCVM' />
+         <ReactPlayer url='https://youtu.be/zLRp5Zp3Ifk' />
+         
+        </div>
         </div>
     </div>
   )
