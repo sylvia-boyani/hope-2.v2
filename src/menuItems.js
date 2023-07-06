@@ -66,7 +66,7 @@ export const menuItems = [
         submenu: [
           {
             title: 'Highridge',
-            url: '*',
+            url: 'highridge',
           },
           {
             title: 'Raila',
@@ -74,23 +74,23 @@ export const menuItems = [
           },
           {
             title: 'Kibera',
-            url: '*',
+            url: 'kibera',
           },
           {
             title: 'Grogon',
-            url: '*',
+            url: 'grogon',
           },
           {
             title: 'Fuata Nyayo',
-            url: '*',
+            url: 'fuata',
           },
           {
             title: 'Kiambio',
-            url: '*',
+            url: 'kiambio',
           },
           {
             title: 'Gitwamba',
-            url: '*',
+            url: 'gitwamba',
           },
           
         ]

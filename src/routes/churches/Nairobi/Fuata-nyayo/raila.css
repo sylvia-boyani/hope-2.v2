@@ -1,7 +1,7 @@
 .hero{
     text-align: center;
     height: 100vh;
-    background-image: url(../../../../assets/salvador.jpg);
+    background-color: #333;
     position: relative;
 }
 

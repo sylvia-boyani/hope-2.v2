@@ -13,6 +13,7 @@ import Events from '../routes/Events';
 import Ministries from '../routes/Ministries';
 import Tumati from '../routes/Tumati';
 import Raila from '../routes/churches/Nairobi/Raila/Raila';
+import Fuata from '../routes/churches/Nairobi/Fuata-nyayo/Fuata';
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
           <Route path='contact' element={<Contact />}/>
           <Route path='events' element={<Events />}/>
           <Route path='raila' element={<Raila />}/>
+          <Route path='fuata' element={<Fuata />}/>
         </Route>
       </Routes>
     </>

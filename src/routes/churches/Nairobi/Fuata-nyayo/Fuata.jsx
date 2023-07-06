@@ -9,7 +9,7 @@ import ContactR from './ContactR'
 import GiveR from './Give'
 
 
-function Raila() {
+function Fuata() {
   return (
     <div>
       <Nav />
@@ -23,4 +23,4 @@ function Raila() {
   )
 }
 
-export default Raila;
+export default Fuata;
