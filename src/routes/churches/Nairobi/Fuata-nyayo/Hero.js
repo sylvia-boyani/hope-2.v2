@@ -40,14 +40,14 @@ function Hero() {
 
      <div className='pic'>
        <img className='hero-img' src={hero1} alt='hero'/>
-       <p>COMMUNITY OUTREACH <br />
-         Time: All Day<br />
-         These are special services where<br />
-         the community at large is invited  <br />
-         to. These happen whenever we  have <br />
-         visitors from Overseas and they happen <br />
-         to have gifts to give to the community.  <br />
-         We also take this opportunity to evangelize.</p>
+       <p>OUR FELLOWSHIPS<br />
+         Time : Evenings<br />
+         Church fellowship on Teusdays. 5-7PM<br />
+         These other fellowships are home services. <br />
+         Samaria Felowship. <br />
+         Jerusalem fellowship.<br />
+         Galilaya fellowship. <br />
+         These take place every Wednesday from 7-8PM.</p>
      </div>
      
      <div className='pic'>

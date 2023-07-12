@@ -29,6 +29,7 @@ function AboutR() {
         deserunt mollit anim id est laborum."</p>
      </div>
      <div>
+       <br/>
         <h4>Our Church</h4>
         <p>Our church has a few programs that it runs.
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

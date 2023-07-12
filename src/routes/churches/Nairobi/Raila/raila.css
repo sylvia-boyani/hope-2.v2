@@ -167,8 +167,6 @@ input, placeholder{
 }
 
 .give h1{
-    background-color: yellow;
-    background-image: url(../../../../assets/first.jpeg);
     height: 100px;
     justify-content: center;
 }
@@ -186,6 +184,12 @@ input, placeholder{
 }
 .give{
      color: black;
+}
+
+.pays{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
 }
 
 
