@@ -31,7 +31,9 @@ function AboutR() {
      <div>
        <br/>
         <h4>Our Church</h4>
-        <p>Our church has a few programs that it runs.
+        <p>Our Church comprises of 120 members run by the leadership 
+         of the Local Church Counsil comprisisng of 10 members.
+         Our church has various departments that it runs. These are 
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

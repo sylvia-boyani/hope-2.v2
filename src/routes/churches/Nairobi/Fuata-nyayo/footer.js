@@ -8,7 +8,7 @@ import {HashLink as Link} from 'react-router-hash-link'
 
 const Footer = () => {
   return (
-       <footer>
+       <div className='footerR'>
       {/* <img id ="logo" src={dove} alt="" /> */}
 
        <ul className="permalinks">
@@ -39,9 +39,10 @@ const Footer = () => {
         </div>
 
         <div className='footer_copyright'>
+          <p>Location: South B in the slums of Mukuru fuatanyayo near South B Mosque</p>
          <small>&copy; 2023 TUMAINI MINISTRIES. All rights reserved.</small>
         </div>
-       </footer>    
+       </div>    
   )
 }
 

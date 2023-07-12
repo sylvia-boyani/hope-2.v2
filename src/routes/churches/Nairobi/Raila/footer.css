@@ -1,14 +1,14 @@
-footer{
+.footerR{
     margin-top: 5rem;
     background: #0f5c0d;
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
-    height: 30vh;
+    height: 40vh;
     width: 100%;
 }
 
-footer a {
+.footerR a {
     color:  #010b01;
 }
 
@@ -49,6 +49,7 @@ footer a {
 
 .footer_copyright{
     margin-bottom: 2rem;
+    padding: 2rem;
 }
   
    @media screen and (max-width: 600px) {
@@ -59,7 +60,7 @@ footer a {
     }
 
     .footer_socials{
-        margin-bottom: .4rem;
+        margin-bottom: .2rem;
     }
 
     .footer_socials a{
@@ -67,11 +68,11 @@ footer a {
         border-radius: 0.7rem;
     }
 
-    footer{
+    .footerR{
         padding: 0.5rem 0;
         text-align: center;
         font-size: 0.7rem;
-        height: 20vh;
+        height: 30vh;
         width: 100%;
         margin-top: 7rem;
     }
