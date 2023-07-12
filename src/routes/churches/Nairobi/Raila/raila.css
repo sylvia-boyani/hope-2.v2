@@ -1,7 +1,7 @@
 .hero{
     text-align: center;
     height: 100vh;
-    background-image: url(../../../../assets/salvador.jpg);
+    background-image: url(../../../../assets/city.jpg);
     position: relative;
 }
 
@@ -174,7 +174,18 @@ input, placeholder{
 }
 
 .choir{
-    margin-top: 100px;
+    margin-top: 150px;
+}
+.vid1-btn{
+    width: 20%;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 20px;
+    margin-left: 30rem; 
+    font-size: 22px;
+}
+.give{
+     color: black;
 }
 
 
@@ -274,5 +285,16 @@ input, placeholder{
         .contact-form{
             margin-top: 100px;
             width: 100%;
+        }
+        .iframe{
+            width: 20%;
+        }
+
+        .vid1-btn{
+            width: 20%;
+            padding: 1px;
+            margin-top: 10px;
+            margin-left: 15rem; 
+            font-size: 12px;
         }
 }

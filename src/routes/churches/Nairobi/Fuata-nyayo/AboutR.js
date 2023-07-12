@@ -4,7 +4,6 @@ import img77 from "../../../../assets/Pst shadrack.jpg"
 import img777 from "../../../../assets/ubc.jpg"
 //import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'
-import ReactPlayer from 'react-player'
 
 function AboutR() {
   return (
@@ -40,7 +39,7 @@ function AboutR() {
         </p>
         <div><ProgramsR /></div>
      </div>
-        <h2>Meet Our Church Leaders</h2>
+        <h3>Meet Our Church Leaders</h3>
         <div className='team' id="teamR">
         <div className='me'>
          <div data-aos="fade-right" className="about-column">
@@ -105,11 +104,14 @@ function AboutR() {
          </div>
       </div>
         <div className='choir'>
-         <h5>See some of our Choirs Songs</h5>
-         <ReactPlayer url='https://youtu.be/u9Qxd8xLCVM' />
-         <ReactPlayer url='https://youtu.be/zLRp5Zp3Ifk' />
-         
-        </div>
+         <h4>See some of our Choirs Songs</h4>
+         <div class="ratio ratio-16x9">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/u9Qxd8xLCVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           </div>
+             <a  className='vid1-btn' href='https://www.youtube.com/@tumainifuatanyayochoirsout6126'
+              alt='vid1' target='_blank'  rel="noreferrer noopener">See more</a>
+             
+          </div>
         </div>
     </div>
   )
