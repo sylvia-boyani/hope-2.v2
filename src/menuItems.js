@@ -101,31 +101,31 @@ export const menuItems = [
         submenu: [
           {
             title: 'Kibaoni',
-            url: '*',
+            url: 'kibaoni',
           },
           {
             title: 'Maram',
-            url: '*',
+            url: 'maram',
           },
           {
             title: 'Povuni',
-            url: '*',
+            url: 'povuni',
           },
           {
             title: 'Manda',
-            url: '*',
+            url: 'manda',
           },
           {
             title: 'Nabemo',
-            url: '*',
+            url: 'nabemo',
           },
           {
             title: 'Mahamasi',
-            url: '*',
+            url: 'mahamasi',
           },
           {
             title: 'Mombasa',
-            url: '*',
+            url: 'mombasa',
           },
           
         ]
@@ -135,31 +135,31 @@ export const menuItems = [
         submenu: [
           {
             title: 'Chwele',
-            url: '*',
+            url: 'chwele',
           },
           {
             title: 'Roka',
-            url: '*',
+            url: 'roka',
           },
           {
             title: 'Malengo',
-            url: '*',
+            url: 'malengo',
           },
           {
             title: 'Changamoto',
-            url: '*',
+            url: 'changamoto',
           },
           {
             title: 'Hitimisho',
-            url: '*',
+            url: 'hitimisho',
           },
           {
             title: 'Sogorosa',
-            url: '*',
+            url: 'sogorosa',
           },
           {
             title: 'Saba-saba-Hindi',
-            url: '*',
+            url: 'saba-saba',
           },
         ]
       },
@@ -173,7 +173,7 @@ export const menuItems = [
           },
           {
             title: 'Lugari',
-            url: 'Lugari',
+            url: 'lugari',
           },
         ]
       },

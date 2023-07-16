@@ -14,6 +14,7 @@ import Ministries from '../routes/Ministries';
 import Tumati from '../routes/Tumati';
 import Raila from '../routes/churches/Nairobi/Raila/Raila';
 import Fuata from '../routes/churches/Nairobi/Fuata-nyayo/Fuata';
+import Gitwamba from '../routes/churches/Nairobi/Gitwamba/Gitwamba';
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
           <Route path='events' element={<Events />}/>
           <Route path='raila' element={<Raila />}/>
           <Route path='fuata' element={<Fuata />}/>
+          <Route path='gitwamba' element={<Gitwamba />}/>
         </Route>
       </Routes>
     </>
