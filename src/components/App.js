@@ -15,6 +15,12 @@ import Tumati from '../routes/Tumati';
 import Raila from '../routes/churches/Nairobi/Raila/Raila';
 import Fuata from '../routes/churches/Nairobi/Fuata-nyayo/Fuata';
 import Gitwamba from '../routes/churches/Nairobi/Gitwamba/Gitwamba';
+import Highridge from '../routes/churches/Nairobi/Highridge/Highridge';
+import Maili from '../routes/churches/Nairobi/Maili/Maili';
+import Grogon from '../routes/churches/Nairobi/Grogon/Grogon';
+import Kayaba from '../routes/churches/Nairobi/Kayaba/Kayaba';
+import Kiambio from '../routes/churches/Nairobi/Kiambio/Kiambio';
+import Kibera from '../routes/churches/Nairobi/Kibera/Kibera';
 
 const App = () => {
   return (
@@ -37,6 +43,12 @@ const App = () => {
           <Route path='raila' element={<Raila />}/>
           <Route path='fuata' element={<Fuata />}/>
           <Route path='gitwamba' element={<Gitwamba />}/>
+          <Route path='highridge' element={<Highridge />}/>
+          <Route path='maili' element={<Maili />}/>
+          <Route path='grogon' element={<Grogon />}/>
+          <Route path='kayaba' element={<Kayaba />}/>
+          <Route path='kiambio' element={<Kiambio />}/>
+          <Route path='kibera' element={<Kibera />}/>
         </Route>
       </Routes>
     </>

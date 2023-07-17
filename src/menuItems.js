@@ -81,6 +81,10 @@ export const menuItems = [
             url: 'grogon',
           },
           {
+            title: 'Kayaba',
+            url: 'kayaba',
+          },
+          {
             title: 'Fuata Nyayo',
             url: 'fuata',
           },
@@ -91,6 +95,10 @@ export const menuItems = [
           {
             title: 'Gitwamba',
             url: 'gitwamba',
+          },
+          {
+            title: 'Maili-saba',
+            url: 'maili',
           },
           
         ]

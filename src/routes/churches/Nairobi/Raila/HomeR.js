@@ -27,10 +27,10 @@ const HomeR = () => {
     setCurrentState(currentState)
   }
   return (
-    <div className='hero'>
+    <div className='heroRaila'>
        <div style={bgImageStyle} ></div>
        <div className='transparent-background'></div>
-       <div className='description'>
+       <div className='description-raila'>
          <div>
           <h1>{ImageSlider[currentState].title}</h1>
           <p>{ImageSlider[currentState].body}</p>

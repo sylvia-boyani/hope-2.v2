@@ -1,17 +1,19 @@
-.hero{
+.heroRaila{
     text-align: center;
     height: 100vh;
-    background-image: url(../../../../assets/city.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../../../assets/railaC.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 
-.description{
+.description-raila{
     width: 600px;
     position: absolute;
     z-index: 999;
     color: aliceblue;
     top: 30%;
-    left: 10%;
+    left: 20%;
 }
 
 .description h1{
