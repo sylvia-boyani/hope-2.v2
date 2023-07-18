@@ -1,5 +1,5 @@
 import React from 'react'
-import './raila.css'
+import './sogorosa.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
 
 const ProgramsR = () => {

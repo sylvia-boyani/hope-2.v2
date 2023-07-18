@@ -1,7 +1,7 @@
 .heroRaila{
     text-align: center;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../../../assets/railaC.jpeg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../../../assets/kilifi-home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -11,7 +11,7 @@
     width: 600px;
     position: absolute;
     z-index: 999;
-    color: aliceblue;
+    color: aliceblue; 
     top: 30%;
     left: 20%;
 }

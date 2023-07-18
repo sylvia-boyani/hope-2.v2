@@ -22,6 +22,10 @@ import Kayaba from '../routes/churches/Nairobi/Kayaba/Kayaba';
 import Kiambio from '../routes/churches/Nairobi/Kiambio/Kiambio';
 import Kibera from '../routes/churches/Nairobi/Kibera/Kibera';
 import Kambi from '../routes/churches/Kilifi/Kambi ya Waya/Kambi'
+import Kibaoni from '../routes/churches/Kilifi/Kibaoni/Kibaoni'
+import Marrum from '../routes/churches/Kilifi/Marrum/Marrum'
+import Povuni from '../routes/churches/Kilifi/Povuni/Povuni'
+import Sogorosa from '../routes/churches/Kilifi/Sogorosa/Sogorosa'
 
 const App = () => {
   return (
@@ -51,6 +55,10 @@ const App = () => {
           <Route path='kiambio' element={<Kiambio />}/>
           <Route path='kibera' element={<Kibera />}/>
           <Route path='kambi' element={<Kambi />}/>
+          <Route path='kibaoni' element={<Kibaoni />}/>
+          <Route path='marrum' element={<Marrum />}/>
+          <Route path='povuni' element={<Povuni />}/>
+          <Route path='sogorosa' element={<Sogorosa />}/>
         </Route>
       </Routes>
     </>

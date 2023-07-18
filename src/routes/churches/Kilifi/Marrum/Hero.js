@@ -1,9 +1,9 @@
 import React from 'react'
-import './raila.css'
-import hero1 from '../../../../assets/praise-raila-2.jpg'
-import hero2 from '../../../../assets/raila-1.jpg'
-import hero3 from '../../../../assets/praise-raila.jpg'
-import hero4 from '../../../../assets/pst.James.jpg'
+import './marrum.css'
+import hero1 from '../../../../assets/coast3.jpeg'
+import hero2 from '../../../../assets/coast4.jpeg'
+import hero3 from '../../../../assets/coast5.jpeg'
+import hero4 from '../../../../assets/coast6.jpeg'
 
 function Hero() {
   return (
