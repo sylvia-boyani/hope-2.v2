@@ -1,5 +1,5 @@
 import React from 'react'
-import './kiambio.css'
+import './highridge.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
 
 const ProgramsR = () => {

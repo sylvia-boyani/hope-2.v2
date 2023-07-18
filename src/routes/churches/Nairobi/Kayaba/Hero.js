@@ -1,9 +1,9 @@
 import React from 'react'
 import './kayaba.css'
-import hero1 from '../../../../assets/praise-raila-2.jpg'
-import hero2 from '../../../../assets/raila-1.jpg'
-import hero3 from '../../../../assets/praise-raila.jpg'
-import hero4 from '../../../../assets/pst.James.jpg'
+import hero1 from '../../../../assets/kayaba7.jpeg'
+import hero2 from '../../../../assets/kayaba4.jpeg'
+import hero3 from '../../../../assets/kayaba5.jpeg'
+import hero4 from '../../../../assets/kayaba6.jpeg'
 
 function Hero() {
   return (

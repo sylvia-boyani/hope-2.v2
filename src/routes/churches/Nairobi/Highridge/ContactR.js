@@ -1,6 +1,6 @@
  import {useRef} from 'react'
  import emailjs from 'emailjs-com'
- import './kiambio.css'
+ import './highridge.css'
  
  const ContactR = () => {
   const form = useRef();

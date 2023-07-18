@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './kibera.css'
+import './highridge.css'
 import ImageSlider from './dataR'
 import { useState } from 'react'
 
@@ -27,7 +27,7 @@ const HomeR = () => {
     setCurrentState(currentState)
   }
   return (
-    <div className='hero-kibera'>
+    <div className='heroRaila'>
        <div style={bgImageStyle} ></div>
        <div className='transparent-background'></div>
        <div className='description-raila'>

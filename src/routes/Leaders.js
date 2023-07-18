@@ -239,7 +239,7 @@ function Leaders() {
          <div data-aos="fade-left" className="lead-column">
             <div className='lead-content'>
                <p>
-                  <h3>Eunice </h3>
+                  <h3>Eunice Atieno</h3>
                   <h4>Women's Ministry Lead</h4>
                   Because I'm experienced, reliable,
                   and focused on results, I've had the
