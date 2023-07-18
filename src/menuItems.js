@@ -104,36 +104,40 @@ export const menuItems = [
         ]
       },
       {
-        title: 'Mombasa',
+        title: 'Lamu',
         url: 'web-dev',
         submenu: [
           {
-            title: 'Kibaoni',
-            url: 'kibaoni',
+            title: 'Saba saba',
+            url: 'saba',
           },
           {
-            title: 'Maram',
-            url: 'maram',
+            title: 'Roka',
+            url: 'roka',
           },
           {
-            title: 'Povuni',
-            url: 'povuni',
+            title: 'Kibokoni',
+            url: 'kibokoni',
           },
           {
             title: 'Manda',
             url: 'manda',
           },
           {
-            title: 'Nabemo',
-            url: 'nabemo',
+            title: 'Hongwe',
+            url: 'hongwe',
           },
           {
-            title: 'Mahamasi',
-            url: 'mahamasi',
+            title: 'Poromoko',
+            url: 'poromoko',
           },
           {
-            title: 'Mombasa',
-            url: 'mombasa',
+            title: 'Moa',
+            url: 'moa',
+          },
+          {
+            title: 'Karafuu',
+            url: 'karafuu',
           },
           
         ]
@@ -142,32 +146,24 @@ export const menuItems = [
         title: 'Kilifi',
         submenu: [
           {
-            title: 'Chwele',
-            url: 'chwele',
+            title: 'Kambi Ya Waya',
+            url: 'kambi',
           },
           {
-            title: 'Roka',
-            url: 'roka',
-          },
-          {
-            title: 'Malengo',
-            url: 'malengo',
-          },
-          {
-            title: 'Changamoto',
-            url: 'changamoto',
-          },
-          {
-            title: 'Hitimisho',
-            url: 'hitimisho',
+            title: 'Kibaoni',
+            url: 'kibaoni',
           },
           {
             title: 'Sogorosa',
             url: 'sogorosa',
           },
           {
-            title: 'Saba-saba-Hindi',
-            url: 'saba-saba',
+            title: 'Marrum',
+            url: 'marrum',
+          },
+          {
+            title: 'Povuni',
+            url: 'povuni',
           },
         ]
       },
@@ -176,15 +172,36 @@ export const menuItems = [
         url: 'western',
         submenu: [
           {
-            title: 'Busia',
-            url: 'busia',
+            title: 'Mahemas',
+            url: 'mahemas',
           },
           {
-            title: 'Lugari',
-            url: 'lugari',
+            title: 'Chwele',
+            url: 'chwele',
+          },
+          {
+            title: 'Nambemo',
+            url: 'nambemo',
+          },
+          {
+            title: 'Bubamba',
+            url: 'bubamba',
+          },
+          {
+            title: 'Kitale',
+            url: 'kitale',
           },
         ]
       },
+      {
+        title: 'Mombasa',
+        submenu: [
+          {
+            title: 'Kikwatani',
+            url: 'kikwatani',
+          },
+        ]
+      }
     ]
   },
   {
@@ -192,18 +209,22 @@ export const menuItems = [
     url: 'projects',
     submenu: [
      {
-      title: 'TUMATI',
+      title: 'Tumati',
       url: 'tumati',
      },
      {
-      title: 'LAMU HOUSE',
+      title: 'Lamu House',
       url: 'lamu',
      },
      {
-      title: 'MABADILIKO YA WANADADA',
+      title: 'Mabadiliko ya Wanadada',
       url: 'mabadiliko',
      },
     ]
+  },
+  {
+    title: 'Gallery',
+    url: 'gallery',
   },
   {
     title: 'Contact',

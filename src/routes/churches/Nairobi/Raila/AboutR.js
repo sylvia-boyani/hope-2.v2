@@ -1,6 +1,6 @@
 import React from 'react'
 import './raila.css'
-import img77 from "../../../../assets/city.jpg"
+import img77 from "../../../../assets/Pst-Joseph.jpeg"
 import img777 from "../../../../assets/ubc.jpg"
 import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'
