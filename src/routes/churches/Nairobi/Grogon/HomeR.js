@@ -27,7 +27,7 @@ const HomeR = () => {
     setCurrentState(currentState)
   }
   return (
-    <div className='heroRaila'>
+    <div className='hero-grogon'>
        <div style={bgImageStyle} ></div>
        <div className='transparent-background'></div>
        <div className='description-raila'>

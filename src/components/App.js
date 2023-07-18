@@ -21,6 +21,7 @@ import Grogon from '../routes/churches/Nairobi/Grogon/Grogon';
 import Kayaba from '../routes/churches/Nairobi/Kayaba/Kayaba';
 import Kiambio from '../routes/churches/Nairobi/Kiambio/Kiambio';
 import Kibera from '../routes/churches/Nairobi/Kibera/Kibera';
+import Kambi from '../routes/churches/Kilifi/Kambi ya Waya/Kambi'
 
 const App = () => {
   return (
@@ -49,6 +50,7 @@ const App = () => {
           <Route path='kayaba' element={<Kayaba />}/>
           <Route path='kiambio' element={<Kiambio />}/>
           <Route path='kibera' element={<Kibera />}/>
+          <Route path='kambi' element={<Kambi />}/>
         </Route>
       </Routes>
     </>
