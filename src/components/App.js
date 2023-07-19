@@ -42,6 +42,9 @@ import Sabasaba from '../routes/churches/Lamu/Sabasaba/Sabasaba'
 import Roka from '../routes/churches/Lamu/Roka/Roka'
 import Quality from '../routes/Resources/Quality'
 import Strategic from '../routes/Resources/Strategic'
+import Constitution from '../routes/Resources/Constitution'
+import Bylaws from '../routes/Resources/Bylaws'
+import Financial from '../routes/Resources/Financial'
 
 const App = () => {
   return (
@@ -91,6 +94,9 @@ const App = () => {
           <Route path='roka' element={<Roka />}/>
           <Route path='quality' element={<Quality />}/>
           <Route path='strategic' element={<Strategic />}/>
+          <Route path='constitution' element={<Constitution />}/>
+          <Route path='laws' element={<Bylaws />}/>
+          <Route path='financial' element={<Financial />}/>
         </Route>
       </Routes>
     </>
