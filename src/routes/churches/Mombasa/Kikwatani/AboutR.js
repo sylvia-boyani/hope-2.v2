@@ -1,6 +1,6 @@
 import React from 'react'
 import './kikwatani.css'
-import img77 from "../../../../assets/Joshua mombasa.jpeg"
+import img77 from "../../../../assets/joshua.jpeg"
 import img777 from "../../../../assets/ubc.jpg"
 import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'

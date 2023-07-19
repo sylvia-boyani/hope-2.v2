@@ -27,6 +27,11 @@ import Marrum from '../routes/churches/Kilifi/Marrum/Marrum'
 import Povuni from '../routes/churches/Kilifi/Povuni/Povuni'
 import Sogorosa from '../routes/churches/Kilifi/Sogorosa/Sogorosa'
 import Kikwatani from '../routes/churches/Mombasa/Kikwatani/Kikwatani'
+import Bubamba from '../routes/churches/Western/Bubamba/Bubamba'
+import Mahemas from '../routes/churches/Western/Mahemas/Mahemas'
+import Kitale from '../routes/churches/Western/Kitale/Kitale'
+import Chwele from '../routes/churches/Western/Chwele/Chwele'
+import Nambemo from '../routes/churches/Western/Nambemo/Nambemo'
 
 const App = () => {
   return (
@@ -61,6 +66,11 @@ const App = () => {
           <Route path='povuni' element={<Povuni />}/>
           <Route path='sogorosa' element={<Sogorosa />}/>
           <Route path='kikwatani' element={<Kikwatani />}/>
+          <Route path='bubamba' element={<Bubamba />}/>
+          <Route path='mahemas' element={<Mahemas />}/>
+          <Route path='kitale' element={<Kitale />}/>
+          <Route path='chwele' element={<Chwele />}/>
+          <Route path='nambemo' element={<Nambemo />}/>
         </Route>
       </Routes>
     </>

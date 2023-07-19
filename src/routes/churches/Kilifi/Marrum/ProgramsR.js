@@ -12,7 +12,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Men Partner Programs(DADS)</h4>
+           <h4>Farming</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -20,7 +20,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Hope Education Center</h4>
+           <h4>Water Tanks</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -28,16 +28,8 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Financial Training</h4>
-            <small className="text-light">Operational</small>
-           </div>
-          </article>
-
-          <article className="program_details">
-            <div className='program_details-icon'><BsPatchCheckFill /></div>
-           <div>
-           <h4>Urban Impact(Post-covid)</h4>
-            <small className="text-light">Operational</small>
+           <h4>Start School</h4>
+            <small className="text-light">Future</small>
            </div>
           </article>
 
@@ -45,7 +37,7 @@ const ProgramsR = () => {
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
             <h4>Mabadiliko ya Wanadada</h4>
-            <small className="text-light">Operational</small>
+            <small className="text-light">Future</small>
             </div>
           </article>
 
@@ -53,17 +45,17 @@ const ProgramsR = () => {
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
             <h4>Tumaini House Rentals</h4>
-            <small className="text-light">Operational</small>
+            <small className="text-light">Future</small>
             </div>
           </article>
         </div>
        
         <div className="program_backend">
-        <h4>Future Projects</h4>
+        <h4>Future Projects are to curb</h4>
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
-            <h4>Buy land</h4>
+            <h4>Children strating school late.</h4>
             <small className="text-light">In Progress</small>
             </div>
           </article>
@@ -71,7 +63,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
-            <h4>Church Block building</h4>
+            <h4>Support Church financially.</h4>
             <small className="text-light">Started</small>
             </div>
           </article>
@@ -79,7 +71,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
-            <h4>Pastors Training</h4>
+            <h4>Teaching Materials</h4>
             <small className="text-light">Future</small>
             </div>
           </article>

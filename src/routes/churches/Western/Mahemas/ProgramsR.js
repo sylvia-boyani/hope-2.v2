@@ -1,5 +1,5 @@
 import React from 'react'
-import './raila.css'
+import './mahemas.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
 
 const ProgramsR = () => {
@@ -12,7 +12,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Men Partner Programs(DADS)</h4>
+           <h4>Maize Planting</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -20,7 +20,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Hope Education Center</h4>
+           <h4>Farming</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -28,7 +28,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Financial Training</h4>
+           <h4>Church Clinic</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -36,8 +36,8 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Urban Impact(Post-covid)</h4>
-            <small className="text-light">Operational</small>
+           <h4>Guest House</h4>
+            <small className="text-light">Future</small>
            </div>
           </article>
 
@@ -45,41 +45,41 @@ const ProgramsR = () => {
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
             <h4>Mabadiliko ya Wanadada</h4>
-            <small className="text-light">Operational</small>
+            <small className="text-light">Future</small>
             </div>
           </article>
 
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
-            <h4>Tumaini House Rentals</h4>
-            <small className="text-light">Operational</small>
+            <h4>Church school</h4>
+            <small className="text-light">Future</small>
             </div>
           </article>
         </div>
        
         <div className="program_backend">
-        <h4>Future Projects</h4>
+        <h4>All Future Projects are to curb</h4>
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
-            <h4>Buy land</h4>
-            <small className="text-light">In Progress</small>
+            <h4>Long distance walk to schools</h4>
+            <small className="text-light">Challenge</small>
             </div>
           </article>
 
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
-            <h4>Church Block building</h4>
-            <small className="text-light">Started</small>
+            <h4>Church Clinic. No nearby medical facilities</h4>
+            <small className="text-light">Future</small>
             </div>
           </article>
 
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
-            <h4>Pastors Training</h4>
+            <h4>Start Church School</h4>
             <small className="text-light">Future</small>
             </div>
           </article>

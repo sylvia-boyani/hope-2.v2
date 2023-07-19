@@ -9,7 +9,7 @@ export default function Nav() {
       <nav className="navigation">
         {/* <img id ="logo" src={logo} alt="" />  */}
         <a href="/" className="brand-name">
-          Tumaini Church Raila
+          Tumaini Church Nambemo
         </a>
         
         <button className="hamburger"

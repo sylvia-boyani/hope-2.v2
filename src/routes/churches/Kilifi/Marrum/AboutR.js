@@ -1,6 +1,6 @@
 import React from 'react'
 import './marrum.css'
-import img77 from "../../../../assets/Jason marrum.jpeg"
+import img77 from "../../../../assets/jason.jpeg"
 import img777 from "../../../../assets/ubc.jpg"
 import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'
@@ -30,7 +30,8 @@ function AboutR() {
      </div>
      <div>
         <h4>Our Church</h4>
-        <p>Our church has a few programs that it runs.
+        <p>Our church sits on a five and a half acres of ;and owned by the church
+         with water tanks owned by the church too. It has a few programs that it runs.
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
