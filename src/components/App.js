@@ -41,6 +41,7 @@ import Manda from '../routes/churches/Lamu/Manda/Manda'
 import Sabasaba from '../routes/churches/Lamu/Sabasaba/Sabasaba'
 import Roka from '../routes/churches/Lamu/Roka/Roka'
 import Quality from '../routes/Resources/Quality'
+import Strategic from '../routes/Resources/Strategic'
 
 const App = () => {
   return (
@@ -89,6 +90,7 @@ const App = () => {
           <Route path='saba' element={<Sabasaba />}/>
           <Route path='roka' element={<Roka />}/>
           <Route path='quality' element={<Quality />}/>
+          <Route path='strategic' element={<Strategic />}/>
         </Route>
       </Routes>
     </>
