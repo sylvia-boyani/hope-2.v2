@@ -12,7 +12,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Men Partner Programs(DADS)</h4>
+           <h4>Farming Vegetables</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -20,7 +20,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Hope Education Center</h4>
+           <h4>Poultry Farming</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -28,7 +28,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Financial Training</h4>
+           <h4>Pigs Farming</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -36,7 +36,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Urban Impact(Post-covid)</h4>
+           <h4>Children Play area</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -44,7 +44,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
-            <h4>Mabadiliko ya Wanadada</h4>
+            <h4>Footbal Youth Club</h4>
             <small className="text-light">Operational</small>
             </div>
           </article>
@@ -53,7 +53,7 @@ const ProgramsR = () => {
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
             <h4>Tumaini House Rentals</h4>
-            <small className="text-light">Operational</small>
+            <small className="text-light">Future</small>
             </div>
           </article>
         </div>

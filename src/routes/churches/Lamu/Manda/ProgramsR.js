@@ -1,5 +1,5 @@
 import React from 'react'
-import './raila.css'
+import './manda.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
 
 const ProgramsR = () => {
@@ -12,7 +12,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Men Partner Programs(DADS)</h4>
+           <h4>Farming (Goats for milk)</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -20,7 +20,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Hope Education Center</h4>
+           <h4>Transportation of building Materials</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -28,7 +28,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Financial Training</h4>
+           <h4>Prayers for Security and Drought</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>

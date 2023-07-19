@@ -1,6 +1,6 @@
 import React from 'react'
-import './raila.css'
-import img77 from "../../../../assets/Pst-Joseph.jpeg"
+import './manda.css'
+import img77 from "../../../../assets/Enos.jpeg"
 import img777 from "../../../../assets/ubc.jpg"
 import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'
@@ -10,7 +10,9 @@ function AboutR() {
     <div>
      <div className='abt' id='aboutR'>
      <h3>About Us</h3>
-      <p>Tumaini Langata was founded by Pst Jackton
+      <p>Tumaini Manda opened in 2007 by Evangelist Enos Moyale,
+         Pst Elis Abour and Ken Omanya as founding pastors. 
+         They started preaching the gospel to the community.
         and Bishop Fred Ogutu. The church originated from 
         Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
         Bishop form Tumaini Gitwamba"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -50,7 +52,7 @@ function AboutR() {
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-                  <h4>Pst Joseph Wanyama (Senior Pastor)</h4>
+                  <h4>Pst Enos Moyale (Senior Pastor)</h4>
                   <p>We all have our strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.My business is more

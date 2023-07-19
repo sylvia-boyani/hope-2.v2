@@ -10,8 +10,8 @@ function AboutR() {
     <div>
      <div className='abt' id='aboutR'>
      <h3>About Us</h3>
-      <p>Tumaini Sogorosa was founded by Pst Jackton
-        and Bishop Fred Ogutu. The church originated from 
+      <p>Tumaini Sogorosa was started in 2016 with Pst Jackson as the founder. 
+         The church owns it's own field and is continually growing. 
         Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
         Bishop form Tumaini Gitwamba"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -51,7 +51,14 @@ function AboutR() {
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
                   <h4>Pst Jackson Kahindi (Senior Pastor)</h4>
-                  <p>We all have our strengths. I’ve perfected
+                  <p>Born in Kilifi County Magarini and is married 
+                     to one wife and are blessed with oe child. He is 
+                     also previleged to be working near the his home area. 
+                     The vision that Pastor Kahindi has is to reach the 
+                     youth and women with the gospel. And He does this through
+                     singing groups and evangelism. The main purpose is to try 
+                     and curb the high unemployment rate in the region.                     
+                     We all have our strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.My business is more
                   than just a job. Each time I take on a new project, 

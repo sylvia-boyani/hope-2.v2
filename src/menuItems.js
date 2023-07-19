@@ -43,8 +43,8 @@ export const menuItems = [
             url: 'financial'
           },
           {
-            title: 'strategic Plan',
-            url: 'ministries'
+            title: 'Strategic Plan',
+            url: 'strategic'
           },
           {
             title: 'By Laws',

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './raila.css'
+import './hongwe.css'
 import ImageSlider from './dataR'
 import { useState } from 'react'
 

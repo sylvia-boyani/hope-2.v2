@@ -12,7 +12,15 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Men Partner Programs(DADS)</h4>
+           <h4>Church Building</h4>
+            <small className="text-light">Ongoing</small>
+           </div>
+          </article>
+
+          <article className="program_details">
+            <div className='program_details-icon'><BsPatchCheckFill /></div>
+           <div>
+           <h4>Maize farming on a half acre</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -20,7 +28,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Hope Education Center</h4>
+           <h4>Teaching Women Tailoring</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -28,15 +36,7 @@ const ProgramsR = () => {
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
-           <h4>Financial Training</h4>
-            <small className="text-light">Operational</small>
-           </div>
-          </article>
-
-          <article className="program_details">
-            <div className='program_details-icon'><BsPatchCheckFill /></div>
-           <div>
-           <h4>Urban Impact(Post-covid)</h4>
+           <h4>Youth Empowerment Program</h4>
             <small className="text-light">Operational</small>
            </div>
           </article>
@@ -45,15 +45,15 @@ const ProgramsR = () => {
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
             <h4>Mabadiliko ya Wanadada</h4>
-            <small className="text-light">Operational</small>
+            <small className="text-light">Future</small>
             </div>
           </article>
 
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
-            <h4>Tumaini House Rentals</h4>
-            <small className="text-light">Operational</small>
+            <h4>Church Instruments</h4>
+            <small className="text-light">Future</small>
             </div>
           </article>
         </div>

@@ -10,7 +10,8 @@ function AboutR() {
     <div>
      <div className='abt' id='aboutR'>
      <h3>About Us</h3>
-      <p>Tumaini Langata was founded by Pst Jackton
+      <p>Tumaini Bubamba was started in 2020 by Pastor Grogory.
+         It currently has 20 members with 12 children and 8 youth members. 
         and Bishop Fred Ogutu. The church originated from 
         Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
         Bishop form Tumaini Gitwamba"Lorem ipsum dolor sit amet, consectetur adipiscing elit,

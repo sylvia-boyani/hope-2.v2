@@ -1,6 +1,6 @@
  import {useRef} from 'react'
  import emailjs from 'emailjs-com'
- import './raila.css'
+ import './manda.css'
  
  const ContactR = () => {
   const form = useRef();

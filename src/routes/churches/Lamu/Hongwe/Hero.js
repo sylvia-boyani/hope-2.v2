@@ -1,5 +1,5 @@
 import React from 'react'
-import './raila.css'
+import './hongwe.css'
 import hero1 from '../../../../assets/praise-raila-2.jpg'
 import hero2 from '../../../../assets/raila-1.jpg'
 import hero3 from '../../../../assets/praise-raila.jpg'

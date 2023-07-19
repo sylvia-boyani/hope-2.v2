@@ -1,6 +1,6 @@
 import React from 'react'
-import './raila.css'
-import img77 from "../../../../assets/Pst-Joseph.jpeg"
+import './moa.css'
+import img77 from "../../../../assets/Joshua Moa.jpeg"
 import img777 from "../../../../assets/ubc.jpg"
 import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'
@@ -10,7 +10,10 @@ function AboutR() {
     <div>
      <div className='abt' id='aboutR'>
      <h3>About Us</h3>
-      <p>Tumaini Langata was founded by Pst Jackton
+      <p>Tumaini church Moa started in 2002 and later returned around 2014
+         under the leadership of Pst William, Pst Patrick and Pst Ondolo but
+         the main founder being Pastor Timothy. With current 20 congregants 
+         comprising of 14 adults and the rest being children and the youth.
         and Bishop Fred Ogutu. The church originated from 
         Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
         Bishop form Tumaini Gitwamba"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -50,7 +53,7 @@ function AboutR() {
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-                  <h4>Pst Joseph Wanyama (Senior Pastor)</h4>
+                  <h4>Pst Joshua Odhiambo (Senior Pastor)</h4>
                   <p>We all have our strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.My business is more

@@ -10,7 +10,11 @@ function AboutR() {
     <div>
      <div className='abt' id='aboutR'>
      <h3>About Us</h3>
-      <p>Tumaini Langata was founded by Pst Jackton
+      <p>Tumaini Nambemo was started in 2018 like a home fellowship
+         then it moved on to rent a place of worship for a while then
+         settled in the current place. The founders are Pst Thomas and 
+         Pst Andrew and they still continue to minister. With a current 
+         population of 32 congregants o fyouth and adults and 22 Children
         and Bishop Fred Ogutu. The church originated from 
         Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
         Bishop form Tumaini Gitwamba"Lorem ipsum dolor sit amet, consectetur adipiscing elit,

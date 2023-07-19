@@ -1,6 +1,6 @@
 import React from 'react'
-import './raila.css'
-import img77 from "../../../../assets/Pst-Joseph.jpeg"
+import './Roka'
+import img77 from "../../../../assets/Eloise.jpeg"
 import img777 from "../../../../assets/ubc.jpg"
 import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'
@@ -10,9 +10,10 @@ function AboutR() {
     <div>
      <div className='abt' id='aboutR'>
      <h3>About Us</h3>
-      <p>Tumaini Langata was founded by Pst Jackton
-        and Bishop Fred Ogutu. The church originated from 
-        Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
+      <p>Tumaini Roka opened in 2012 by Pst Eloise and the members
+         Celina Shanga, Samuel Kariuki and Hamisi Charo. We currently have
+         58 curch members inlusive of adults and sunday school. The church
+          originated from Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
         Bishop form Tumaini Gitwamba"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -50,7 +51,7 @@ function AboutR() {
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-                  <h4>Pst Joseph Wanyama (Senior Pastor)</h4>
+                  <h4>Pst Eloise (Senior Pastor)</h4>
                   <p>We all have our strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.My business is more

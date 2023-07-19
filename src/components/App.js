@@ -32,6 +32,15 @@ import Mahemas from '../routes/churches/Western/Mahemas/Mahemas'
 import Kitale from '../routes/churches/Western/Kitale/Kitale'
 import Chwele from '../routes/churches/Western/Chwele/Chwele'
 import Nambemo from '../routes/churches/Western/Nambemo/Nambemo'
+import Hongwe from '../routes/churches/Lamu/Hongwe/Hongwe'
+import Karafuu from '../routes/churches/Lamu/Karafuu/Karafuu'
+import Kibokoni from '../routes/churches/Lamu/Kibokoni/Kibokoni'
+import Poromoko from '../routes/churches/Lamu/Poromoko/Poromoko'
+import Moa from '../routes/churches/Lamu/Moa/Moa'
+import Manda from '../routes/churches/Lamu/Manda/Manda'
+import Sabasaba from '../routes/churches/Lamu/Sabasaba/Sabasaba'
+import Roka from '../routes/churches/Lamu/Roka/Roka'
+import Quality from '../routes/Resources/Quality'
 
 const App = () => {
   return (
@@ -71,6 +80,15 @@ const App = () => {
           <Route path='kitale' element={<Kitale />}/>
           <Route path='chwele' element={<Chwele />}/>
           <Route path='nambemo' element={<Nambemo />}/>
+          <Route path='hongwe' element={<Hongwe />}/>
+          <Route path='karafuu' element={<Karafuu />}/>
+          <Route path='kibokoni' element={<Kibokoni />}/>
+          <Route path='poromoko' element={<Poromoko />}/>
+          <Route path='moa' element={<Moa />}/>
+          <Route path='manda' element={<Manda />}/>
+          <Route path='saba' element={<Sabasaba />}/>
+          <Route path='roka' element={<Roka />}/>
+          <Route path='quality' element={<Quality />}/>
         </Route>
       </Routes>
     </>

@@ -1,6 +1,6 @@
 import React from 'react'
-import './raila.css'
-import img77 from "../../../../assets/Pst-Joseph.jpeg"
+import './sabasaba.css'
+import img77 from "../../../../assets/Maurice.jpeg"
 import img777 from "../../../../assets/ubc.jpg"
 import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'
@@ -30,7 +30,8 @@ function AboutR() {
      </div>
      <div>
         <h4>Our Church</h4>
-        <p>Our church has a few programs that it runs.
+        <p>Our church consists of 60 congregants 40 being sunday school and 20
+         adults. Our church sits on a 10 acres land owned by the church.
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -50,8 +51,12 @@ function AboutR() {
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-                  <h4>Pst Joseph Wanyama (Senior Pastor)</h4>
-                  <p>We all have our strengths. I’ve perfected
+                  <h4>Pst Maurice Juma (Senior Pastor)</h4>
+                  <p>Pst Maurice is the head of Lamu Churches region.
+                     He helped in opening Tumaini Roka, Tumaini Kibokoni 
+                     and Tumaini Manda. He is married to 1 wife and they 
+                     are blessed with four children.
+                     We all have our strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.My business is more
                   than just a job. Each time I take on a new project, 
