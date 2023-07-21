@@ -19,7 +19,7 @@ function Cards() {
                 programs for children that run occasionally 
                 during the year.'
               label='Children Ministry '
-              path='/'
+              path='children'
             />
             <CardItem
               src={'./images/Itlay4.jpg'}

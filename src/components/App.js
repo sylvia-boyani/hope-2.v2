@@ -45,6 +45,7 @@ import Strategic from '../routes/Resources/Strategic'
 import Constitution from '../routes/Resources/Constitution'
 import Bylaws from '../routes/Resources/Bylaws'
 import Financial from '../routes/Resources/Financial'
+import Children from '../routes/Children'
 
 const App = () => {
   return (
@@ -97,6 +98,7 @@ const App = () => {
           <Route path='constitution' element={<Constitution />}/>
           <Route path='laws' element={<Bylaws />}/>
           <Route path='financial' element={<Financial />}/>
+          <Route path='children' element={<Children />}/>
         </Route>
       </Routes>
     </>

@@ -220,6 +220,55 @@ export const menuItems = [
       title: 'Mabadiliko ya Wanadada',
       url: 'mabadiliko',
      },
+     
+    ]
+  },
+
+  {
+    title: 'Our Ministries',
+    url: 'projects',
+    submenu: [
+     {
+      title: 'Children Ministry',
+      url: 'children',
+     },
+     {
+      title: 'Men Ministry',
+      url: 'men',
+     },
+     {
+      title: 'Women Ministry',
+      url: 'women',
+     },
+     {
+      title: 'Youth Ministry',
+      url: 'youth',
+     },
+     {
+      title: 'Payer Ministry',
+      url: 'prayer',
+     },
+     {
+      title: 'Family Ministry',
+      url: 'family',
+     },
+     {
+      title: 'Missions Ministry',
+      url: 'outreach',
+     },
+     {
+      title: 'Schools Ministry',
+      url: 'schools',
+     },
+     {
+      title: 'Counselling Ministry',
+      url: 'counselling',
+     },
+     {
+      title: 'Church Planting',
+      url: 'church-planting',
+     },
+     
     ]
   },
   {
