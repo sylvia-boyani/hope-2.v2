@@ -15,7 +15,7 @@
 }
 
 .header_container h2{
-    line-height: 15px;
+    line-height:15px;
     margin-top: 20px;
 }
 
@@ -35,9 +35,9 @@
 }
 
 .header_container h2{
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-    line-height: 10px;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 400px;
+    line-height: 60px;
 }
 
 .header_container h3{
