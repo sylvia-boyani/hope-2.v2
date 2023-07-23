@@ -1,6 +1,6 @@
 import React from 'react'
 import './mahemas.css'
-import img77 from "../../../../assets/Patrick.jpeg"
+import img77 from "../../../../assets/grogory.jpeg"
 import img777 from "../../../../assets/ubc.jpg"
 import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'

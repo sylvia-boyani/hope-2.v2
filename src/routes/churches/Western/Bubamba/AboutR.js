@@ -1,8 +1,8 @@
 import React from 'react'
 import './bubamba.css'
-import img77 from "../../../../assets/gregory bubamba.jpeg"
+import img77 from "../../../../assets/Patrick.jpeg"
 import img777 from "../../../../assets/ubc.jpg"
-import img7777 from "../../../../assets/pst.James.jpg"
+import img7777 from "../../../../assets/city.jpg"
 import ProgramsR from './ProgramsR'
 
 function AboutR() {

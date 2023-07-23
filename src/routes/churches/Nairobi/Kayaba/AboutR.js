@@ -50,7 +50,7 @@ function AboutR() {
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-                  <h4>Pst Joseph Wanyama (Senior Pastor)</h4>
+                  <h4>Pst Macharia (Senior Pastor)</h4>
                   <p>We all have our strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.My business is more
@@ -64,7 +64,7 @@ function AboutR() {
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-               <h4>Pst Wilson Omondi</h4>
+               <h4>Pst Ezra Otieno</h4>
                 <p>We all have our strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.My business is more
@@ -82,13 +82,13 @@ function AboutR() {
             </div>
          </div>
 
-         <div data-aos="fade-right" className="about-column">
+         {/* <div data-aos="fade-right" className="about-column">
             <div className='about-img'>
                <img className="A-img" src={img7777} alt="about us" />
             </div>
-         </div>
+         </div> */}
 
-         <div data-aos="fade-left" className="about-column">
+         {/* <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
                <h4>Pst James Wanyama</h4>
                <p>
@@ -101,7 +101,7 @@ function AboutR() {
                   me love learning, and added with my perfectionism,
                   I am able to come up with quality work.</p>
             </div>
-         </div>
+         </div> */}
       </div>
         </div>
     </div>

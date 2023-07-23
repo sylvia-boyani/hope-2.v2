@@ -191,6 +191,11 @@ export const menuItems = [
             title: 'Kitale',
             url: 'kitale',
           },
+
+          {
+            title: 'Bwema',
+            url: 'bwema',
+          },
         ]
       },
       {

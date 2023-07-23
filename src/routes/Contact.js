@@ -19,14 +19,14 @@ const Contact = () => {
   };
   return (
     <section id = "contact">
-      <h2>Support Us</h2>
+      <h1>Support Us</h1>
 
       <div className='container contact_container'>
         <div className='contact_options'>
           <article className='contact_option'>
             <MdOutlineEmail  className='contact_option-icon' />
             <h4>Email</h4>
-            <h5>sylviaboyani11@gmail.com</h5>
+            <h5></h5>
             <a href='mailto:sylviaboyani11@gmail.com' target="_blank" rel='noreferrer'>Send Email</a>
           </article>
           <article className='contact_option'>

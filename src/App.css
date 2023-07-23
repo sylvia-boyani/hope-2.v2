@@ -157,6 +157,8 @@ button span {
 
 .content h2 {
   margin-bottom: 1rem;
+  /* border: solid red; */
+  line-height: 50px;
 }
 
 .content a {

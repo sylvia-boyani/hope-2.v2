@@ -1,7 +1,7 @@
 const ImageSlider =[
     {
         url: 'https://images.unsplash.com/photo-1533000971552-6a962ff0b9f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-        title: "Welcome, Karibu Nyumabani!",
+        title: "Welcome, Karibu Nyumbani!",
         body: "Join Our community in worshiping God. We have a service every Sunday from 10:00 PM and every Teusday from 6:30 PM "
     },
     {
