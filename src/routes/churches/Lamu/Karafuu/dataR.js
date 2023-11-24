@@ -1,7 +1,7 @@
 const ImageSlider =[
     {
         url: '',
-        title: "Welcome, Karibu Nyumabani!",
+        title: "Welcome, Karibu Nyumbani!",
         body: "Join Our community in worshiping God. We have a service every Sunday from 10:00 PM and every Teusday from 6:30 PM "
     },
     {
@@ -12,7 +12,7 @@ const ImageSlider =[
     {
         url: '',
         title: "Worship in the Old Testament",
-        body: "Worship in the old testament was paying homage to God with prayeror praise(Exodus 34:8-9) and sometim with silent acceptance or submition.(Judges 7:15)"
+        body: "Worship in the old testament was paying homage to God with prayer praise(Exodus 34:8-9) and sometim with silent acceptance or submition.(Judges 7:15)"
     },
     {
         url: '',

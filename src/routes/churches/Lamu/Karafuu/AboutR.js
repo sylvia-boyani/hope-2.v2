@@ -1,6 +1,6 @@
 import React from 'react'
 import './karafuu.css'
-import img77 from "../../../../assets/Pst-Joseph.jpeg"
+import img77 from "../../../../assets/samuel-karafuu.jpeg"
 import img777 from "../../../../assets/ubc.jpg"
 import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'
@@ -82,7 +82,7 @@ function AboutR() {
             </div>
          </div>
 
-         <div data-aos="fade-right" className="about-column">
+         {/* <div data-aos="fade-right" className="about-column">
             <div className='about-img'>
                <img className="A-img" src={img7777} alt="about us" />
             </div>
@@ -101,7 +101,7 @@ function AboutR() {
                   me love learning, and added with my perfectionism,
                   I am able to come up with quality work.</p>
             </div>
-         </div>
+         </div> */}
       </div>
         </div>
     </div>

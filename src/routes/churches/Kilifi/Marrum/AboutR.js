@@ -30,13 +30,13 @@ function AboutR() {
      </div>
      <div>
         <h4>Our Church</h4>
-        <p>Our church sits on a five and a half acres of ;and owned by the church
-         with water tanks owned by the church too. It has a few programs that it runs.
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-           in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        <p>Our church land was bought by Pst Michael Ambembo through the Tumaini
+         Ministries Office. He did some farming while ministering at Kibaoni Church. 
+         Then after a while God enabled there to be a church, hence in the year 2016
+         a church was officially opened at Marram.
+         The Church started metting under a tree and this went on for about three years
+         until Miller visited and provided a tempoprary structure in 2019 where they started to
+         meet at. 
         </p>
         <div><ProgramsR /></div>
      </div>
@@ -65,7 +65,7 @@ function AboutR() {
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-               <h4>Pst Wilson Omondi</h4>
+               <h4>Church Elder Samuel Katana</h4>
                 <p>We all have our strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.My business is more
@@ -80,27 +80,6 @@ function AboutR() {
          <div data-aos="fade-right" className="about-column">
             <div className='about-img'>
                <img className="A-img" src={img777} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="about-column">
-            <div className='about-img'>
-               <img className="A-img" src={img7777} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-left" className="about-column">
-            <div className='about-content'>
-               <h4>Pst James Wanyama</h4>
-               <p>
-               We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.My business is more
-                  than just a job. Each time I take on a new project, 
-                  I make sure it aligns with my core set of values so
-                  I know I can deliver great results. My curiosity makes
-                  me love learning, and added with my perfectionism,
-                  I am able to come up with quality work.</p>
             </div>
          </div>
       </div>

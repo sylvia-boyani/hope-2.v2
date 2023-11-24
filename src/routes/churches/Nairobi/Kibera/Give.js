@@ -6,7 +6,7 @@ const GiveR = () => {
   return (
     <div className='give' id='giveR'>
       <h1>GIVING</h1>
-      <h3>Offerings and tithes</h3>
+      <h2>Offerings and tithes</h2>
       <div className='pays'>
         <div>
          <h5>Safaricom Mpesa Paybill</h5>

@@ -1,8 +1,8 @@
 import React from 'react'
 import './kibera.css'
-import hero1 from '../../../../assets/praise-raila-2.jpg'
+import hero1 from '../../../../assets/kibera.jpeg'
 import hero2 from '../../../../assets/Kibera2.jpeg'
-import hero3 from '../../../../assets/praise-raila.jpg'
+import hero3 from '../../../../assets/kibera.jpeg'
 import hero4 from '../../../../assets/kibera3.jpeg'
 
 function Hero() {
