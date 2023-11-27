@@ -7,6 +7,7 @@ import Slider from '../routes/Slider.js'
 import Gallery from './Gallery'
 import Footer from './footer'
 import Events from '../routes/Events'
+import Featured from './Featured/Featured'
 
 
 function Home() { 
@@ -24,6 +25,7 @@ function Home() {
         </div>
         <h3 className= "text-light">Needing Jesus Christ Together</h3>
         <HeaderSocials />
+        <Featured />
         <Slider />
         <Events />
         <Gallery />
