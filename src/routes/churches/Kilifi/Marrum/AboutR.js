@@ -58,7 +58,9 @@ function AboutR() {
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
                <h4>Church Elder Samuel Katana</h4>
-                <p>We all have our strengths. I’ve perfected
+                <p>Apart frm being the Elder of the Church I am also
+                  the sectrary of Our church. Serving in this position in church.........
+                  We all have our strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.My business is more
                   than just a job. Each time I take on a new project, 
