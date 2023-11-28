@@ -55,7 +55,7 @@
     grid-template-columns: 50% 50%;
     gap: 5%;  
     padding: 40px;
-    margin-top: 40px
+    margin-top: 10px;
 }
 .Hero h3{
     text-align: center;
@@ -80,6 +80,10 @@ h3{
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 5%;
+    margin-top: 1rem;
+}
+.about-marram{
+    margin-top: -10rem;
 }
 
 .about-content h1{
@@ -97,9 +101,11 @@ h3{
 }
 
 .program_container{
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    margin-bottom: 1rem;
 }
 
 h2{
@@ -145,10 +151,10 @@ h2{
 .contact-form{
     margin-top: 100px;
     width: 50%;
-    color: black
+    color: black;
 }
 input {
-    background-color: #093a08
+    background-color: #093a08;
 }
 input, textarea{
     color: black;

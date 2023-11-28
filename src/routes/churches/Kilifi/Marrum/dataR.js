@@ -1,7 +1,7 @@
 const ImageSlider =[
     {
         url: '',
-        title: "Welcome, Karibu Nyumabani!",
+        title: "Welcome, Karibu Nyumbani!",
         body: "Join Our community in worshiping God. We have a service every Sunday from 10:00 PM and every Teusday from 6:30 PM "
     },
     {

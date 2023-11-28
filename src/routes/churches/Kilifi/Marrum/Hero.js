@@ -40,26 +40,14 @@ function Hero() {
 
      <div className='pic'>
        <img className='hero-img' src={hero1} alt='hero'/>
-       <p>COMMUNITY OUTREACH <br />
-         Time: All Day<br />
-         These are special services where<br />
-         the community at large is invited  <br />
-         to. These happen whenever we  have <br />
-         visitors from Overseas and they happen <br />
-         to have gifts to give to the community.  <br />
-         We also take this opportunity to evangelize.</p>
+       <p>WEDNESDAY FELLOWSHIPS <br />
+        House Fellowships</p>
      </div>
      
      <div className='pic'>
        <img className= "hero-img" src={hero4} alt='hero'/>
-       <p>NIGHT KESHA'S <br />
-         Time: All Night. 9:00 PM - 5:00 AM <br />
-         These are overnight services that  <br />
-         that usually happen Fridays.  <br />
-         These have the same structure as  <br />
-         the Sunday Services but maybe with  <br />
-         guests from other churches. <br />
-         We also attend Other Churche's Keshas
+       <p>FRIDAY SERVICES <br />
+        Prayer and Fasting services
        </p>
      </div>
      </div>

@@ -2,12 +2,11 @@ import React from 'react'
 import './marrum.css'
 import img77 from "../../../../assets/jason.jpeg"
 import img777 from "../../../../assets/ubc.jpg"
-import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'
 
 function AboutR() {
   return (
-    <div>
+    <div classname='about-marram'>
      <div className='abt' id='aboutR'>
      <h3>About Us</h3>
       <p>Tumaini Marram is located along Malini Lamu Road. It is just near Marereni
@@ -21,7 +20,7 @@ function AboutR() {
          Ministries Office. He did some farming while ministering at Kibaoni Church. 
          Then after a while God enabled there to be a church, hence in the year 2016
          a church was officially opened at Marram.
-         The Church started metting under a tree and this went on for about three years
+         The Church started meeting under a tree and this went on for about three years
          until Miller visited and provided a tempoprary structure in 2019 where they started to
          meet at. We continued worshiping God at that place until Miller supported us again through 
          Bishop Fred a new Permanent building which was built on 2022.
@@ -30,7 +29,7 @@ function AboutR() {
         </p>
         <div><ProgramsR /></div>
      </div>
-        <h2>Meet Our Church Leaders</h2>
+        <h2 className='about-marram'>Meet Our Church Leaders</h2>
         <div className='team' id="teamR">
         <div className='me'>
          <div data-aos="fade-right" className="about-column">

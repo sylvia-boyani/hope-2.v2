@@ -5,7 +5,7 @@ import {BsPatchCheckFill} from 'react-icons/bs'
 const ProgramsR = () => {
   return (
     <section id ="ProgramsR">
-      <h4>Our Programs</h4>
+      <h3>Our Programs</h3>
       <div className="container program_container">
         <div className="program_frontend">
           <h4>Current Projects</h4>
@@ -21,7 +21,7 @@ const ProgramsR = () => {
             <div className='program_details-icon'><BsPatchCheckFill /></div>
            <div>
            <h4>This Project is to supply water.</h4>
-            <small className="text-light">Future</small>
+            <small className="text-light">Ongoing</small>
            </div>
           </article>
         </div>
