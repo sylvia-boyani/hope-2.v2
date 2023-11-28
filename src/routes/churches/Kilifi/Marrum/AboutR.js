@@ -10,23 +10,10 @@ function AboutR() {
     <div>
      <div className='abt' id='aboutR'>
      <h3>About Us</h3>
-      <p>Tumaini Langata was founded by Pst Jackton
-        and Bishop Fred Ogutu. The church originated from 
-        Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
-        Bishop form Tumaini Gitwamba"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum."
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum."</p>
+      <p>Tumaini Marram is located along Malini Lamu Road. It is just near Marereni
+         trading center, about 1Km away. It is adjacent to the Kikwatani Quarry. Our church
+         is in Kilifi County, Magarini sub-county, Adu ward and Marereni Location. 
+      </p>
      </div>
      <div>
         <h4>Our Church</h4>
@@ -36,7 +23,10 @@ function AboutR() {
          a church was officially opened at Marram.
          The Church started metting under a tree and this went on for about three years
          until Miller visited and provided a tempoprary structure in 2019 where they started to
-         meet at. 
+         meet at. We continued worshiping God at that place until Miller supported us again through 
+         Bishop Fred a new Permanent building which was built on 2022.
+         Our new Church was officially opened by Miller, previous Bishop Wentindi, current Bishop Fred
+         and the Tumaini Coastal Family on 27th September 2023.
         </p>
         <div><ProgramsR /></div>
      </div>
@@ -51,8 +41,10 @@ function AboutR() {
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-                  <h4>Pst Joseph Wanyama (Senior Pastor)</h4>
-                  <p>We all have our strengths. I’ve perfected
+                  <h4>Pst Jason Thuva-Lead Pastor</h4>
+                  <p>Leading a congregation of 65 members, I am .......
+                  I have served God from ............We all have our 
+                  strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.My business is more
                   than just a job. Each time I take on a new project, 
