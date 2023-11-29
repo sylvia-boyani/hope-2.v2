@@ -116,7 +116,7 @@ const Footer = () => {
 
             <p>Address: Lucky Summer, Nairobi</p>
             <p>Admin: Nicholas Maramba</p>
-            <p> Phone: +254 726032333 </p>
+            <p>Phone: +254 726032333 </p>
             <p>Email: tumati4youths@gmail.com</p>
           </Col>
         </Row>

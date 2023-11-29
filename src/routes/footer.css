@@ -1,60 +1,25 @@
-.footerContact {
-  background-color: #27ae60;
-  padding: 40px 0;
-  color: #fff;
-  height: 30vh;
+.foo-t{
+  background: #183a1d;
   width: 100%;
+  height: fit-content;
+  max-width: 100;
 }
-.footerContact h1 {
-  font-size: 40px;
+
+.follows span a {
+  text-decoration: none;
 }
-.footer7 {
-  background-color: #1d2636;
-  padding: 50px 0;
+
+.follows span {
+  margin-right: 15px;
+}
+
+.link__list .link__item {
+  background: transparent;
   color: #fff;
 }
-.footer7 .container {
-  display: grid;
-  grid-template-columns: 6fr 2fr 2fr 1fr;
-  grid-gap: 20px;
-}
-footer img {
-  width: 150px;
-}
-footer h2 {
+
+.link__list a {
+  text-decoration: none;
+  color: #fff;
   font-weight: 500;
-}
-footer p {
-  color: grey;
-  margin: 20px 0;
-}
-footer input {
-  background-color: #fff;
-  padding: 17px;
-  width: 100%;
-  border-radius: 5px;
-}
-footer h3 {
-  font-weight: 500;
-  margin-bottom: 30px;
-}
-footer ul {
-  display: block;
-}
-footer ul li {
-  display: block;
-  color: grey;
-  margin-bottom: 20px;
-}
-.legal {
-  text-align: center;
-  padding: 20px;
-  background: #1d2636;
-  color: rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-@media screen and (max-width: 800px) {
-  footer .container {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }

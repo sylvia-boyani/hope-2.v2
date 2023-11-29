@@ -1,54 +1,128 @@
-import React from "react"
-import { footer } from "./Data/data"
-import "./footer.css"
+import React from "react";
+import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
+//import logo from '../../assets/tumati-logo.jpeg'
+import "./footer.css";
+
+const footerQuickLinks = [
+  {
+    display: "Home",
+    url: "homeT",
+  },
+  {
+    display: "About US",
+    url: "#",
+  },
+
+  {
+    display: "Courses",
+    url: "#",
+  },
+
+  {
+    display: "Blog",
+    url: "#",
+  },
+];
+
+const footerInfoLinks = [
+  {
+    display: "Privacy Policy",
+    url: "#",
+  },
+  {
+    display: "Membership",
+    url: "#",
+  },
+
+  {
+    display: "Purchases Guide",
+    url: "#",
+  },
+
+  {
+    display: "Terms of Service",
+    url: "#",
+  },
+];
 
 const Footer = () => {
   return (
-    <>
-      <section className='footerContact'>
-        <div className='container'>
-          <div className='send flex'>
-            <div className='text'>
-              <h1>Do You Have Questions ?</h1>
-              <p>We'll help you to grow your career and growth.</p>
+    <footer className="foo-t">
+      <Container>
+        <Row>
+          <Col lg="3" md="6" className="mb-4">
+            <h2 className=" d-flex align-items-center gap-1">
+            {/* <img id ="logo" src={logo} alt="" /> TUMATI. */}
+            </h2>
+
+            <div className="follows">
+              <p className="mb-0">Follow us on social media</p>
+              <span>
+                {" "}
+                <a href="facebook.com">
+                  <i class="ri-facebook-line"></i>
+                </a>
+              </span>
+
+              <span>
+                {" "}
+                <a href="facebook.com">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </span>
+
+              <span>
+                {" "}
+                <a href="facebook.com">
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </span>
+
+              <span>
+                {" "}
+                <a href="facebook.com">
+                  <i class="ri-twitter-line"></i>
+                </a>
+              </span>
             </div>
-            <button className='btn5'>Contact Us Today</button>
-          </div>
-        </div>
-      </section>
+          </Col>
 
-      <footer className="footer7">
-        <div className='container'>
-          <div className='box'>
-            <div className='logo'>
-              <img src='../images/logo-light.png' alt='' />
-              <h2>Do You Need Help With Anything?</h2>
-              <p>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
+          <Col lg="3" md="6" className="mb-4">
+            <h6 className="fw-bold">Explore</h6>
+            <ListGroup className="link__list">
+              {footerQuickLinks.map((item, index) => (
+                <ListGroupItem key={index} className="border-0 ps-0 link__item">
+                  {" "}
+                  <a href={item.url}>{item.display}</a>
+                </ListGroupItem>
+              ))}
+            </ListGroup>
+          </Col>
 
-              <div className='input flex'>
-                <input type='text' placeholder='Email Address' />
-                <button>Subscribe</button>
-              </div>
-            </div>
-          </div>
+          <Col lg="3" md="6" className="mb-4">
+            <h6 className="fw-bold">Information</h6>
+            <ListGroup className="link__list">
+              {footerInfoLinks.map((item, index) => (
+                <ListGroupItem key={index} className="border-0 ps-0 link__item">
+                  {" "}
+                  <a href={item.url}>{item.display}</a>
+                </ListGroupItem>
+              ))}
+            </ListGroup>
+          </Col>
 
-          {footer.map((val) => (
-            <div className='box'>
-              <h3>{val.title}</h3>
-              <ul>
-                {val.text.map((items) => (
-                  <li> {items.list} </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </footer>
-      <div className='legal'>
-        <span>© 2021 RentUP. Designd By GorkCoder.</span>
-      </div>
-    </>
-  )
-}
+          <Col lg="3" md="6">
+            <h6 className="fw-bold">Get in Touch</h6>
 
-export default Footer
+            <p>Address: Lucky Summer, Nairobi</p>
+            <p>Admin: Nicholas Maramba</p>
+            <p>Phone: +254 726032333 </p>
+            <p>Email: tumati4youths@gmail.com</p>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
+  );
+};
+
+export default Footer;
