@@ -1,6 +1,6 @@
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
-import tuma from '../assets/tuma.png'
+import tuma from '../assets/new-logo.png'
 
 const Header = () => {
   return (
