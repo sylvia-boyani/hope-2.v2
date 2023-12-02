@@ -11,10 +11,10 @@ const Featured = () => {
       <div className='featured'>
         <div className='feat-container'>
          <h1>Church Gatherings</h1>
-         <p>Sundays 10:00AM at our Local churches</p>
-        </div>
+         <h4>Sundays @ 10:00AM at our Local churches.</h4>
+        </div> 
         <div className='feat-btn'>
-          <button>What to expect<FaArrowRight /></button>
+          <button className='feat-btn'><a href="/raila" alt="churches" rel="noopener noreferrer nofollow">What to expect <span className='arrowt'>|</span><span className="arrowt"><FaArrowRight /></span></a></button>
         </div>
       </div>
     </>
