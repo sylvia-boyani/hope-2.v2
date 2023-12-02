@@ -15,6 +15,7 @@ function Home() {
     <div>
      <div id='overlay'>
      <video id ="vida" src={video} autoPlay loop muted />
+     
      </div>
       <div className="container header_container">
         <div classname ="header_content">

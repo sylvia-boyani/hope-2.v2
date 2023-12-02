@@ -3,7 +3,8 @@
     height: 100vh;
     background-color: #333;
     position: relative;
-    
+    margin-top: 8rem;
+    border: solid red;
 }
 
 .description{

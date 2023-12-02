@@ -32,6 +32,7 @@ const Slider = () => {
        <div className='transparent-background'></div>
        <div className='description'>
          <div>
+          <h2>Announcements</h2>
           <h1>{ImageSlider[currentState].title}</h1>
           <p>{ImageSlider[currentState].body}</p>
          </div>

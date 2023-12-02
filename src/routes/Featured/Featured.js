@@ -1,17 +1,22 @@
 import React from "react"
-import Heading from "./Heading"
+//import Heading from "./Heading"
 import "./Featured.css"
-import FeaturedCard from "./FeaturedCard"
+//import FeaturedCard from "./FeaturedCard"
+import { FaArrowRight } from "react-icons/fa";
+
 
 const Featured = () => {
   return (
     <>
-      <section className='featured background'>
-        <div className='container'>
-          <Heading title='Featured Property Types' subtitle='Find All Type of Property.' />
-          <FeaturedCard />
+      <div className='featured'>
+        <div className='feat-container'>
+         <h1>Church Gatherings</h1>
+         <p>Sundays 10:00AM at our Local churches</p>
         </div>
-      </section>
+        <div className='feat-btn'>
+          <button>What to expect<FaArrowRight /></button>
+        </div>
+      </div>
     </>
   )
 }
