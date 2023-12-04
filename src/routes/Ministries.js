@@ -1,7 +1,7 @@
 import React from 'react';
-import './Ministries.css';
+import './Slider.css';
 import CardItem from './CardItem';
-//import { Button } from "./Button";
+
 
 function Cards() {
   return (

@@ -1,51 +1,36 @@
-import React, { useEffect } from 'react'
-import './Slider-data'
-import ImageSlider from './Slider-data'
-import { useState } from 'react'
+// ThreeCards.js
+import React from 'react';
+import './Slider.css';
+import CardItem from './CardItem';
+import card1 from '../assets/images/christmas-card.jpg'
+import card2 from '../assets/images/lamu-mission.jpg'
+import card3 from '../assets/images/Mens-Ministry.jpg'
 
 const Slider = () => {
-  const [currentState,setCurrentState] = useState(0)
-  useEffect(() =>{
-    const timer = setTimeout(()=>{
-      if(currentState===3){
-        setCurrentState(0)
-      }else{
-        setCurrentState(currentState+1)
-      }
-    }, 5000)
-    return ()=> clearTimeout(timer)
-  },[currentState])
-  const bgImageStyle = {
-    backgroundImage: `url(${ImageSlider[currentState].url})`,
-    backgroundPosition: 'center',
-    backgroundSize: 'cover',
-    BackgroundRepeat: 'none',
-    height: '100%'
-  }
-  const goToNext = (currentState)=>{
-    setCurrentState(currentState)
-  }
   return (
-
-      <div className='hero'>
-       <div style={bgImageStyle} ></div>
-       <div className='transparent-background'></div>
-       <div className='description'>
-         <div>
-          <h2>Announcements</h2>
-          <h1>{ImageSlider[currentState].title}</h1>
-          <p>{ImageSlider[currentState].body}</p>
-         </div>
-         <div className='carousel-boult'>
-          {
-            ImageSlider.map((ImageSlider,currentState)=>(
-              <span key={currentState} onClick={()=> goToNext(currentState) }></span>
-            ))
-          }
-         </div>
-       </div>
+    <div className='cs'>
+      <h1 className='kard-head'>Announcements</h1>
+      <div className='c-container'>
+        <ul className='c-items'>
+          <CardItem
+            src={card1}
+            text='Christmas is here!'
+            label='Card 1'
+          />
+          <CardItem
+            src={card2}
+            text='Lamu Youth Mission.'
+            label='Card 2'
+          />
+          <CardItem
+            src={card3}
+            text='Mens Conference'
+            label='Card 3'
+          />
+        </ul>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Slider
+export default Slider;

@@ -34,23 +34,21 @@ const [cards] = useState([
     },
     {
         title: 'Church Planting',
-        text: `Lorem ipsum dolor sit amet,
-         consectetur adipiscing elit.
-         In fringilla dictum nunc, id feugiat 
+        text: `September 27 2023 Tumaini Marram 
+        officially opened by Miller and Tumaini Family
          `
     },
     {
         title: 'Ministry Events',
-        text: `Lorem ipsum dolor sit amet,
-         consectetur adipiscing elit.
-         In fringilla dictum nunc, id feugiat 
+        text: `All events and projects carried out by churches or 
+        Tumaini projects, are Tumaini Ministries events.
          `
     },
     
 ])
    return (
         <div>
-            <section>
+            <section className='events'>
                 <div className="container2">
                     <h1>Upcoming Events</h1>
                     <div className="cards">
