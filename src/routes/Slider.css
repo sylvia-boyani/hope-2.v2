@@ -60,3 +60,14 @@
   margin: 2rem;
   flex: 0 0 calc(30% - 4rem); /* Adjust the width as needed */
 }
+
+@media screen and (max-width: 650px){
+  .c-items{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cs{
+    max-width: 100%;
+  }
+}

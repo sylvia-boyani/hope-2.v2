@@ -7,9 +7,7 @@
 }
 
 #contact{
-    background-image: url(../assets/header-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #fff;
     width: 100%;
     opacity: 0.7;
 }

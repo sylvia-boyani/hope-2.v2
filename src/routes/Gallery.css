@@ -1,80 +1,44 @@
-.category {
-  margin-top: 50px;
-  position: relative;
-}
-.category .box {
-  border-radius: 0;
-  text-align: center;
-}
-.category p {
-  text-transform: capitalize;
-  font-size: 14px;
-  font-weight: 600;
-}
-.category img {
+.galleryItem img {
   width: 100%;
-  height: 250px;
+  height: 200px;
   object-fit: cover;
 }
-.category .box::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 250px;
-  background: rgba(0, 0, 0, 0.5);
+
+.galleryContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
 }
-.category .box {
-  cursor: pointer;
-  position: relative;
+
+.galleryWrapper {
+  padding: 5% 10%;
 }
-.category .overlay {
-  position: absolute;
-  top: 80px;
-  padding: 20px;
-  text-align: center;
-  width: 100%;
-  z-index: 2;
-  color: #fff;
-}
-.category .overlay h4 {
-  font-weight: 500;
-  color: rgb(253, 246, 126);
-}
-.category .overlay p {
-  color: #fff;
-  font-weight: 300;
-  padding: 15px;
-}
-/*---------------control-btn-------------*/
-.control-btn button {
-  background: white;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  cursor: pointer;
-  box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+
+.filterItem ul {
   display: flex;
-  justify-content: center;
   align-items: center;
-  transition: 0.5s;
-  padding: 2px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  margin-bottom: 30px;
 }
 
-.control-btn .next {
-  position: absolute;
-  top: 40%;
-  right: 20px;
+.filterItem ul button {
+  background: green;
+  color: #fff;
+  padding: 8px 46px;
+  text-transform: uppercase;
+  border: yellowgreen;
+  font-size: 17px;
+  border-radius: 50px;
 }
 
-.control-btn .prev {
-  position: absolute;
-  top: 40%;
-  left: 20px;
-  z-index: 99;
+.filterItem ul button:hover {
+  background: #222;
+  cursor: pointer;
 }
-.control-btn .icon {
-  font-size: 25px;
+
+.galleryItem img {
+  border-radius: 15px;
 }
-/*---------------control-btn-------------*/

@@ -5,7 +5,7 @@ import {BsTwitter} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
-import img7 from '../assets/payment.png'
+//import img7 from '../assets/payment.png'
 
 const Contact = () => {
   const form = useRef();
@@ -19,7 +19,7 @@ const Contact = () => {
   };
   return (
     <section id = "contact">
-      <h1>Support Us</h1>
+      <h1>Contact Us</h1>
 
       <div className='container contact_container'>
         <div className='contact_options'>
@@ -27,12 +27,12 @@ const Contact = () => {
             <MdOutlineEmail  className='contact_option-icon' />
             <h4>Email</h4>
             <h5></h5>
-            <a href='mailto:sylviaboyani11@gmail.com' target="_blank" rel='noreferrer'>Send Email</a>
+            <a href='mailto:boyani.ombogo7@gmail.com' target="_blank" rel='noreferrer'>Send Email</a>
           </article>
           <article className='contact_option'>
             <BsTwitter  className='contact_option-icon'/>
             <h4>Messenger</h4>
-            <h5>sylvia-boyani</h5>
+            <h5>Tumaini Ministries Kenya</h5>
             <a href ="https://twitter.com/BoyaniSylvia" target="_blank" rel='noreferrer'>Send Message</a>
           </article>
           <article className="contact_option">
@@ -47,24 +47,16 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail}>
           <input  type="text" name="name" placeholder="Your Full Name" required />
           <input  type="email" name="email" placeholder="Your Email" required />
-          <input  type="text" name="name" placeholder='Project you want to support' required >
-          {/* <select>
-          <option value="grapefruit">Tumati</option>
-          <option value="lime">Mabadiliko ya Wanaume</option>
-          <option selected value="coconut">Tumaini Missions</option>
-          <option value="mango">Tumaini Real-Estate</option>
-         </select> */}
+          <input  type="text" name="name" placeholder='Subject' required >
           </input>
          
-        
-          {/* <input  type="integer" name="integer" placeholder='Amount in USD' required /> */}
           <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send </button>
         </form>
       </div>
-      <div className='payment'>
+      {/* <div className='payment'>
       We Accept :   <img src={img7} alt="method"/>
-      </div>
+      </div> */}
     </section>
   )
 }

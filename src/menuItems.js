@@ -278,7 +278,7 @@ export const menuItems = [
   },
   {
     title: 'Gallery',
-    url: 'gallery',
+    url: 'gala',
   },
   {
     title: 'Contact',

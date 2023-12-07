@@ -46,6 +46,7 @@ import Constitution from '../routes/Resources/Constitution'
 import Bylaws from '../routes/Resources/Bylaws'
 import Financial from '../routes/Resources/Financial'
 import Children from '../routes/Children'
+import Gala from  '../routes/Min-Gallery/Gala'
 
 const App = () => {
   return (
@@ -64,6 +65,7 @@ const App = () => {
           <Route path='tumati' element= {<Tumati />}/>
           <Route path='ministries' element={<Ministries />}/>
           <Route path='contact' element={<Contact />}/>
+          <Route path='gala' element={<Gala />}/>
           <Route path='events' element={<Events />}/>
           <Route path='raila' element={<Raila />}/>
           <Route path='fuata' element={<Fuata />}/>

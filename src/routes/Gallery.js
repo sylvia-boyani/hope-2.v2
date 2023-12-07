@@ -1,73 +1,41 @@
-import React from "react"
-import "./Gallery.css"
-import { category } from './GalleryData'
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-import Slider from "react-slick"
-import { GrFormPrevious } from "react-icons/gr"
-import { MdNavigateNext } from "react-icons/md"
+import {GalleryData }  from "./GalleryData";
+import { useEffect, useState } from "react";
+import './Gallery.css'
 
-const SampleNextArrow = (props) => {
-  const { onClick } = props
-  return (
-    <div className='control-btn' onClick={onClick}>
-      <button className='next'>
-        <MdNavigateNext className='icon' />
-      </button>
-    </div>
-  )
-}
-const SamplePrevArrow = (props) => {
-  const { onClick } = props
-  return (
-    <div className='control-btn' onClick={onClick}>
-      <button className='prev'>
-        <GrFormPrevious className='icon' />
-      </button>
-    </div>
-  )
-}
-function Gallery() { 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 2,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
-    responsive: [
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-    ],
+function Gallery() {
+
+  const [data,setData] = useState([]);
+  const [collection,setCollection] = useState([]);
+
+  useEffect(()=>{
+    setData(GalleryData);
+    setCollection([... new Set(GalleryData.map((item)=> item.titile))])
+  },[]) 
+
+  const gallery_filter = (itemData) =>{
+    const filterData = GalleryData.filter((item)=> item.titile === itemData);
+    setData(filterData);
   }
 
   return (
-    <>
-      <section className='category'>
-        <div className='content'>
-          <Slider {...settings}>
-            {category.map((item) => (
-              <div className='boxs'>
-                <div className='box' key={item.id}>
-                  <img src={item.cover} alt='cover' />
-                  <div className='overlay'>
-                    <h4>{item.category}</h4>
-                    <p>{item.title}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </Slider>
+    <div className="App">
+      <div className="galleryWrapper">
+        <div className="filterItem">
+          <ul>
+            <li><button onClick={()=> setData(GalleryData)}>All</button></li>
+            {
+              collection.map((item)=> <li><button onClick={()=>{gallery_filter(item)}}>{item}</button></li>)
+            }
+          </ul>
         </div>
-      </section>
-    </>
-  )
+        <div className="galleryContainer">
+          {
+            data.map((item)=> <div  key={item.id} className="galleryItem"><img src={item.image} /></div> )
+          }
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Gallery
+export default Gallery;

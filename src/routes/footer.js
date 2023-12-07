@@ -44,7 +44,7 @@ const Footer = () => (
         <p className="p__opensans">Partnership</p>
         <p className="p__opensans">Tumaini Connect</p>
         <p className="p__opensans">Give/Support</p>
-        <p className="p__opensans">Join Our Felloeship</p>
+        <p className="p__opensans">Join Our Fellowship</p>
       </div>
 
       <div className="app__footer-links_work">
