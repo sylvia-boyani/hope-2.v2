@@ -94,17 +94,6 @@
     font-size: 0.9rem;
 }
 
-/* @media all and (max-width: 480px){
-    .header_container h3{
-        margin-bottom: 100rem;
-    }
-}
-
-@media all and (max-width: 768px){
-    .header_container h3{
-        margin-bottom: 70rem;
-    }
-} */
 /* Media Queries Tablets and Phones */
 @media all and (max-width: 1440px){
     .header_container {

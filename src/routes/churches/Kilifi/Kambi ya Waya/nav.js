@@ -7,7 +7,6 @@ export default function Nav() {
 
     return (
       <nav className="navigation">
-        {/* <img id ="logo" src={logo} alt="" />  */}
         <a href="/" className="brand-name">
           Tumaini Kambi ya Waya
         </a>

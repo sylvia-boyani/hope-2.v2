@@ -229,6 +229,11 @@ input, placeholder{
     .hero{
         height: 50vh;
     }
+
+    .hero-kambi{
+        position: relative;
+        z-index: 995;
+    }
     .description{
         width: fit-content;
     }
