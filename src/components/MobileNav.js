@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import { menuItems } from "../menuItems";
-//import  MenuItems  from "./MenuItems"; 
 import MobileMenuItems from "./MobileMenuItems";
 
 const MobileNav = () => {

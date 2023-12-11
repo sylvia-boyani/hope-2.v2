@@ -12,6 +12,8 @@ const Header = () => {
         {/* <i>Tumaini Ministries</i> */}
         </Link>
         <Navbar />
+
+        <MobileNav />
       </div>
     </header>
   );

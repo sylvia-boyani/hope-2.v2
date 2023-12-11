@@ -15,6 +15,7 @@
     "bootstrap": "^5.2.3",
     "emailjs": "^4.0.2",
     "emailjs-com": "^3.2.0",
+    "logrocket": "^7.0.0",
     "material-ui-icons": "^1.0.0-beta.36",
     "react": "^18.2.0",
     "react-auto-image-slider": "^1.0.0",

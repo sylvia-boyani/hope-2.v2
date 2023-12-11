@@ -13,6 +13,7 @@ const MenuItems = ({ items, depthLevel }) => {
     };
     document.addEventListener("mousedown", handler);
     document.addEventListener("touchstart", handler);
+    
     return () => {
       //cleanup the event listener
       document.removeEventListener("mousedown", handler);
@@ -27,10 +28,14 @@ const MenuItems = ({ items, depthLevel }) => {
    const onMouseLeave = () => {
     window.innerWidth > 960 && setDropdown(false);
    };
+   const closeDropdown = () => {
+    dropdown && setDropdown(false);
+  };
   return (
     <li className="menu-items" ref={ref}
     onMouseEnter={onMouseEnter}
     onMouseLeave={onMouseLeave}
+    onClick={closeDropdown}
     >
       {items.submenu ? (
         <>
