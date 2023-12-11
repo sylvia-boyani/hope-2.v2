@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import MobileNav from "./MobileNav";
 import { Link } from 'react-router-dom';
 import tuma from '../assets/new-logo.png'
 

@@ -303,4 +303,24 @@ input, placeholder{
             margin-left: 15rem; 
             font-size: 12px;
         }
+
+        .give{
+            margin-top: 75px;
+           
+        }
+        
+        .give h1{
+            height: 50px;
+            justify-content: center;
+        }
+
+        .pay-img{
+            height: 20vh;
+            width: 100%;
+        }
+
+        .pays{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);          
+        }
 }
