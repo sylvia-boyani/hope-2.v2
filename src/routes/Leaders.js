@@ -10,283 +10,293 @@ import im8 from '../assets/kelvin.jpeg'
 import im9 from '../assets/Nion.jpeg'
 import im10 from '../assets/Pst.Renson.jpeg'
 import im11 from '../assets/Eunice.jpeg'
+import { BsTwitterX } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 
+export default function Leaders() {
+  return (
+    <div className='leader'>
+      <div className='lead-content'>
+        <div className='row'>
 
-
-function Leaders() {
-   return (
-      <div className='leader'>
-         <div data-aos="fade-right" className="lead-column">
-            <div className='lead-img'>
-               <img src={img} alt="about us" />
-            </div>
+         <div className='col-md-12 text-center'>
+            <h4 className='lead-title'>
+              The Team Behind Tumaini Ministries
+            </h4>
+            <p className='lead-subtitle'>
+              Tumaini Ministries is led by a Bishop, Fred Ogutu Faradays and an Executive Board comprising 
+              currently of 11 members all who are from various Tumaini Churches as members and leaders.
+            </p>
          </div>
+        
+         <div className='col-sm-6 col-md-4'>
+          <div className='lead-item'>
+           <img className='lead-img'  src={img} alt='pic' />
+           <h6>Fred Faradays Ogutu</h6>
+           <div className='lead-info'>
+            <p>Executive Board Chairman</p>
+            <p>Fred is the current Bishop of Tumaini Ministries and the sole leader.</p>
+              <ul className='lead-icons'>
+                 <li><a href="https://twitter.com" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
+                 </li>
 
-         <div data-aos="fade-left" className="lead-column">
-            <div className='lead-content'>
-               <h3>Bishop Fred Ogutu Faradays</h3>
-               <h4>Ministry Leader and Chairman of the Executive Board</h4>
-               <p>We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.
-                  We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.
-                  We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.
-                  to find out how I can help.
-                  My business is more than just a job.
-                  Each time I take on a new project,
-                  I make sure it aligns with my core
-                  set of values so I know I can deliver great results.
-                  My curiosity makes me love learning, and added with my
-                  perfectionism, I am able to come up with quality work.My business is more than just a job.
-                  Each time I take on a new project,
-                  I make sure it aligns with my core
-                  set of values so I know I can deliver great results.
-               </p>
-            </div>
-         </div>
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
+                 </li>
 
-         <div data-aos="fade-left" className="lead-column">
-            <div className='lead-content'>
-               <p><h3>Pastor James Mburu</h3>
-                  <h4>Vice Chairman</h4>
-                  My business is more than just a job.
-                  Each time I take on a new project,
-                  I make sure it aligns with my core
-                  set of values so I know I can deliver great results.
-                  My curiosity makes me love learning, and added with my
-                  perfectionism, I am able to come up with quality work.
-                  My business is more than just a job.
-                  Each time I take on a new project,
-                  I make sure it aligns with my core
-                  set of values so I know I can deliver great results.
-                  My curiosity makes me love learning, and added with my
-                  perfectionism, I am able to come up with quality work.</p>
-            </div>
-         </div>
+                 <li><a href="https://instagram.com" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
+                 </li>
 
-         <div data-aos="fade-right" className="lead-column">
-            <div className='lead-img'>
-               <img src={im3} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="lead-column">
-            <div className='lead-img'>
-               <img src={im4} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-left" className="lead-column">
-            <div className='lead-content'>
-               <p>
-                  <h3>Pastor Jameson Wanyama</h3>
-                  <h4>Executive Board General Secretary</h4>
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-
-               </p>
-            </div>
-         </div>
-         <div data-aos="fade-left" className="lead-column">
-            <div className='lead-content'>
-               <p>
-                  <h3>Kelvin Owuor</h3>
-                  <h4>Executive Board Treasurer</h4>
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-
-               </p>
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="lead-column">
-            <div className='lead-img'>
-               <img src={im8} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="lead-column">
-            <div className='lead-img'>
-               <img src={im5} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-left" className="lead-column">
-            <div className='lead-content'>
-               <p><h3>Pastor Liz Pronk</h3>
-                  <h4>Ministry Sunday School Lead</h4>
-                  My business is more than just a job.
-                  Each time I take on a new project,
-                  I make sure it aligns with my core
-                  set of values so I know I can deliver great results.
-                  My curiosity makes me love learning, and added with my
-                  perfectionism, I am able to come up with quality work.
-                  My business is more than just a job.
-                  Each time I take on a new project,
-                  I make sure it aligns with my core
-                  set of values so I know I can deliver great results.
-                  My curiosity makes me love learning, and added with my
-                  perfectionism, I am able to come up with quality work.</p>
-            </div>
-         </div>
-
-         <div data-aos="fade-left" className="lead-column">
-            <div className='lead-content'>
-               <p>
-                  <h3>Peter Njasi</h3>
-                  <h4>Ministry Accountant</h4>
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-
-               </p>
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="lead-column">
-            <div className='lead-img'>
-               <img src={im7} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="lead-column">
-            <div className='lead-img'>
-               <img src={im6} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-left" className="lead-column">
-            <div className='lead-content'>
-               <p>
-                  <h3>Margaret Wanjiku</h3>
-                  <h4>Ministry Youth Leader</h4>
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-
-               </p>
-            </div>
-         </div>
-
-         <div data-aos="fade-left" className="lead-column">
-            <div className='lead-content'>
-               <p>
-                  <h3>Nixon Mambo</h3>
-                  <h4>Men's Ministry Lead</h4>
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-
-               </p>
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="lead-column">
-            <div className='lead-img'>
-               <img src={im9} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="lead-column">
-            <div className='lead-img'>
-               <img src={im11} alt="about us" />
-            </div>
-         </div>
-         <div data-aos="fade-left" className="lead-column">
-            <div className='lead-content'>
-               <p>
-                  <h3>Eunice Atieno</h3>
-                  <h4>Women's Ministry Lead</h4>
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-
-               </p>
-            </div>
-         </div>
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
+                 </li>
+              </ul>
+           </div>
+          </div>
+          </div>
 
 
-         <div data-aos="fade-left" className="lead-column">
-            <div className='lead-content'>
-               <p>
-                  <h3> Pst Renson</h3>
-                  <h4>Pastors Representative</h4>
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the Because I'm experienced, reliable,
-                  and focused on results, I've had the
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
-                  privilege of working with a host of fantastic clients.
+          <div className='col-sm-6 col-md-4'>
+          <div className='lead-item'>
+           <img className='lead-img'  src={im3} alt='pic' />
+           <h6>Pastor James Mburu</h6>
+           <div className='lead-info'>
+            <p>Executive Board Vice Chairman</p>
+            <p>Fred is the current Bishop of Tumaini Ministries and the sole leader.</p>
+              <ul className='lead-icons'>
+              <li><a href="https://twitter.com" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
+                 </li>
 
-               </p>
-            </div>
-         </div>
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
+                 </li>
 
-         <div data-aos="fade-right" className="lead-column">
-            <div className='lead-img'>
-               <img src={im10} alt="about us" />
-            </div>
-         </div>
+                 <li><a href="https://instagram.com" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
+                 </li>
+              </ul>
+           </div>
+          </div>
+          </div>
+          <div className='col-sm-6 col-md-4'>
+          <div className='lead-item'>
+           <img className='lead-img'  src={im4} alt='pic' />
+           <h6>Pastor James Wanyama</h6>
+           <div className='lead-info'>
+            <p>Executive Board Secretary</p>
+            <p>Fred is the current Bishop of Tumaini Ministries and the sole leader.</p>
+              <ul className='lead-icons'>
+              <li><a href="https://twitter.com" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
+                 </li>
+
+                 <li><a href="https://instagram.com" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
+                 </li>
+              </ul>
+           </div>
+          </div>
+          </div>
+        
+         <div className='col-sm-6 col-md-4'>
+          <div className='lead-item'>
+           <img className='lead-img'  src={im8} alt='pic' />
+           <h6>Fred Faradays Ogutu</h6>
+           <div className='lead-info'>
+            <p>Executive Board Chairman</p>
+            <p>Fred is the current Bishop of Tumaini Ministries and the sole leader.</p>
+              <ul className='lead-icons'>
+                 <li><a href="https://twitter.com" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
+                 </li>
+
+                 <li><a href="https://instagram.com" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
+                 </li>
+              </ul>
+           </div>
+          </div>
+          </div>
+
+
+          <div className='col-sm-6 col-md-4'>
+          <div className='lead-item'>
+           <img className='lead-img'  src={im11} alt='pic' />
+           <h6>Pastor James Mburu</h6>
+           <div className='lead-info'>
+            <p>Executive Board Vice Chairman</p>
+            <p>Fred is the current Bishop of Tumaini Ministries and the sole leader.</p>
+              <ul className='lead-icons'>
+              <li><a href="https://twitter.com" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
+                 </li>
+
+                 <li><a href="https://instagram.com" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
+                 </li>
+              </ul>
+           </div>
+          </div>
+          </div>
+          <div className='col-sm-6 col-md-4'>
+          <div className='lead-item'>
+           <img className='lead-img'  src={im10} alt='pic' />
+           <h6>Pastor James Wanyama</h6>
+           <div className='lead-info'>
+            <p>Executive Board Secretary</p>
+            <p>Fred is the current Bishop of Tumaini Ministries and the sole leader.</p>
+              <ul className='lead-icons'>
+              <li><a href="https://twitter.com" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
+                 </li>
+
+                 <li><a href="https://instagram.com" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
+                 </li>
+              </ul>
+           </div>
+          </div>
+          </div>
+
+        
+         <div className='col-sm-6 col-md-4'>
+          <div className='lead-item'>
+           <img className='lead-img'  src={im5} alt='pic' />
+           <h6>Fred Faradays Ogutu</h6>
+           <div className='lead-info'>
+            <p>Executive Board Chairman</p>
+            <p>Fred is the current Bishop of Tumaini Ministries and the sole leader.</p>
+              <ul className='lead-icons'>
+                 <li><a href="https://twitter.com" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
+                 </li>
+
+                 <li><a href="https://instagram.com" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
+                 </li>
+              </ul>
+           </div>
+          </div>
+          </div>
+
+
+          <div className='col-sm-6 col-md-4'>
+          <div className='lead-item'>
+           <img className='lead-img'  src={im7} alt='pic' />
+           <h6>Pastor James Mburu</h6>
+           <div className='lead-info'>
+            <p>Executive Board Vice Chairman</p>
+            <p>Fred is the current Bishop of Tumaini Ministries and the sole leader.</p>
+              <ul className='lead-icons'>
+              <li><a href="https://twitter.com" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
+                 </li>
+
+                 <li><a href="https://instagram.com" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
+                 </li>
+              </ul>
+           </div>
+          </div>
+          </div>
+          <div className='col-sm-6 col-md-4'>
+          <div className='lead-item'>
+           <img className='lead-img'  src={im6} alt='pic' />
+           <h6>Pastor James Wanyama</h6>
+           <div className='lead-info'>
+            <p>Executive Board Secretary</p>
+            <p>Fred is the current Bishop of Tumaini Ministries and the sole leader.</p>
+              <ul className='lead-icons'>
+              <li><a href="https://twitter.com" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
+                 </li>
+
+                 <li><a href="https://instagram.com" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
+                 </li>
+              </ul>
+           </div>
+          </div>
+          </div>
+        
+         <div className='col-sm-6 col-md-4'>
+          <div className='lead-item'>
+           <img className='lead-img'  src={im9} alt='pic' />
+           <h6>Fred Faradays Ogutu</h6>
+           <div className='lead-info'>
+            <p>Executive Board Chairman</p>
+            <p>Fred is the current Bishop of Tumaini Ministries and the sole leader.</p>
+              <ul className='lead-icons'>
+                 <li><a href="https://twitter.com" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
+                 </li>
+
+                 <li><a href="https://instagram.com" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
+                 </li>
+              </ul>
+           </div>
+          </div>
+          </div>
+
+
+          <div className='col-sm-6 col-md-4'>
+          <div className='lead-item'>
+           <img className='lead-img'  src={im3} alt='pic' />
+           <h6>Pastor James Mburu</h6>
+           <div className='lead-info'>
+            <p>Executive Board Vice Chairman</p>
+            <p>Fred is the current Bishop of Tumaini Ministries and the sole leader.</p>
+              <ul className='lead-icons'>
+              <li><a href="https://twitter.com" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
+                 </li>
+
+                 <li><a href="https://instagram.com" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
+                 </li>
+
+                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
+                 </li>
+              </ul>
+           </div>
+          </div>
+          </div>
+
+        </div>
       </div>
-   )
+    </div>
+  )
 }
-
-export default Leaders;
